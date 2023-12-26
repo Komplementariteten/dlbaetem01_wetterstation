@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccEFuv8d.s 			page 1
+ARM GAS  /tmp/ccD6FYWN.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -57,11 +57,11 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   33              		@ args = 0, pretend = 0, frame = 0
   34              		@ frame_needed = 0, uses_anonymous_args = 0
   35              		@ link register save eliminated.
-  36              	.LBB59:
-ARM GAS  /tmp/ccEFuv8d.s 			page 2
+  36              	.LBB54:
+ARM GAS  /tmp/ccD6FYWN.s 			page 2
 
 
-  37              	.LBI59:
+  37              	.LBI54:
   38              		.file 3 "../../DaisyExamples/libDaisy//src/sys/system.h"
    1:../../DaisyExamples/libDaisy//src/sys/system.h **** #ifndef DSY_SYSTEM_H
    2:../../DaisyExamples/libDaisy//src/sys/system.h **** #define DSY_SYSTEM_H
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   53:../../DaisyExamples/libDaisy//src/sys/system.h ****         }
   54:../../DaisyExamples/libDaisy//src/sys/system.h **** 
   55:../../DaisyExamples/libDaisy//src/sys/system.h ****         SysClkFreq cpu_freq;
-ARM GAS  /tmp/ccEFuv8d.s 			page 3
+ARM GAS  /tmp/ccD6FYWN.s 			page 3
 
 
   56:../../DaisyExamples/libDaisy//src/sys/system.h ****         bool       use_dcache;
@@ -146,9 +146,9 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   78:../../DaisyExamples/libDaisy//src/sys/system.h ****     ~System() {}
   39              		.loc 3 78 5 view .LVU1
   40              		.loc 3 78 5 is_stmt 0 view .LVU2
-  41              	.LBE59:
-  42              	.LBB60:
-  43              	.LBI60:
+  41              	.LBE54:
+  42              	.LBB55:
+  43              	.LBI55:
   44              		.file 4 "../../DaisyExamples/libDaisy//src/hid/usb.h"
    1:../../DaisyExamples/libDaisy//src/hid/usb.h **** #pragma once
    2:../../DaisyExamples/libDaisy//src/hid/usb.h **** #ifndef DSY_HID_USB_H
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   26:../../DaisyExamples/libDaisy//src/hid/usb.h ****     };
   27:../../DaisyExamples/libDaisy//src/hid/usb.h **** 
   28:../../DaisyExamples/libDaisy//src/hid/usb.h ****     /** Specified which of the two USB Peripherals to initialize. */
-ARM GAS  /tmp/ccEFuv8d.s 			page 4
+ARM GAS  /tmp/ccD6FYWN.s 			page 4
 
 
   29:../../DaisyExamples/libDaisy//src/hid/usb.h ****     enum UsbPeriph
@@ -197,9 +197,9 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   42:../../DaisyExamples/libDaisy//src/hid/usb.h ****     ~UsbHandle() {}
   45              		.loc 4 42 5 is_stmt 1 view .LVU3
   46              		.loc 4 42 5 is_stmt 0 view .LVU4
-  47              	.LBE60:
-  48              	.LBB61:
-  49              	.LBI61:
+  47              	.LBE55:
+  48              	.LBB56:
+  49              	.LBI56:
   50              		.file 5 "../../DaisyExamples/libDaisy//src/per/adc.h"
    1:../../DaisyExamples/libDaisy//src/per/adc.h **** #pragma once
    2:../../DaisyExamples/libDaisy//src/per/adc.h **** #ifndef DSY_ADC_H
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   35:../../DaisyExamples/libDaisy//src/per/adc.h ****     {
   36:../../DaisyExamples/libDaisy//src/per/adc.h ****         MUX_SEL_0,    /**< & */
   37:../../DaisyExamples/libDaisy//src/per/adc.h ****         MUX_SEL_1,    /**< & */
-ARM GAS  /tmp/ccEFuv8d.s 			page 5
+ARM GAS  /tmp/ccD6FYWN.s 			page 5
 
 
   38:../../DaisyExamples/libDaisy//src/per/adc.h ****         MUX_SEL_2,    /**< & */
@@ -298,13 +298,13 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   92:../../DaisyExamples/libDaisy//src/per/adc.h ****     AdcHandle() {}
   93:../../DaisyExamples/libDaisy//src/per/adc.h ****     ~AdcHandle() {}
   51              		.loc 5 93 5 is_stmt 1 view .LVU5
-ARM GAS  /tmp/ccEFuv8d.s 			page 6
+ARM GAS  /tmp/ccD6FYWN.s 			page 6
 
 
   52              		.loc 5 93 5 is_stmt 0 view .LVU6
-  53              	.LBE61:
-  54              	.LBB62:
-  55              	.LBI62:
+  53              	.LBE56:
+  54              	.LBB57:
+  55              	.LBI57:
   56              		.file 6 "../../DaisyExamples/libDaisy//src/hid/audio.h"
    1:../../DaisyExamples/libDaisy//src/hid/audio.h **** #ifndef DSY_AUDIO_H
    2:../../DaisyExamples/libDaisy//src/hid/audio.h **** #define DSY_AUDIO_H /**< & */
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   50:../../DaisyExamples/libDaisy//src/hid/audio.h ****         }
   51:../../DaisyExamples/libDaisy//src/hid/audio.h ****     };
   52:../../DaisyExamples/libDaisy//src/hid/audio.h **** 
-ARM GAS  /tmp/ccEFuv8d.s 			page 7
+ARM GAS  /tmp/ccD6FYWN.s 			page 7
 
 
   53:../../DaisyExamples/libDaisy//src/hid/audio.h ****     enum class Result
@@ -407,7 +407,7 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   96:../../DaisyExamples/libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
   57              		.loc 6 96 5 is_stmt 1 view .LVU7
   58              		.loc 6 96 5 is_stmt 0 view .LVU8
-  59              	.LBE62:
+  59              	.LBE57:
   60              		.loc 2 22 19 view .LVU9
   61 0000 7047     		bx	lr
   62              		.cfi_endproc
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   68              		.align	1
   69              		.p2align 2,,3
   70              		.global	_Z11store_valuet
-ARM GAS  /tmp/ccEFuv8d.s 			page 8
+ARM GAS  /tmp/ccD6FYWN.s 			page 8
 
 
   71              		.syntax unified
@@ -440,361 +440,147 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   11:run.cpp       **** using namespace daisysp;
   12:run.cpp       **** 
   13:run.cpp       **** DaisySeed hw;
-  14:run.cpp       **** static int value_count = 0;
-  15:run.cpp       **** 
-  16:run.cpp       **** 
-  17:run.cpp       **** void store_value(uint16_t value){
-  78              		.loc 1 17 33 is_stmt 1 view -0
+  14:run.cpp       **** static size_t value_count = 0;
+  15:run.cpp       **** // 16bit adc
+  16:run.cpp       **** const float_t ADC_MAX = 0xFFFF;
+  17:run.cpp       **** const float_t VEE = 3.3;
+  18:run.cpp       **** const float_t R_1 = 1000;
+  19:run.cpp       **** 
+  20:run.cpp       **** void store_value(uint16_t value){
+  78              		.loc 1 20 33 is_stmt 1 view -0
   79              		.cfi_startproc
   80              		@ args = 0, pretend = 0, frame = 0
   81              		@ frame_needed = 0, uses_anonymous_args = 0
   82              		@ link register save eliminated.
-  18:run.cpp       **** 	int32_t *ram = (int32_t *)0xC0000000;
-  83              		.loc 1 18 2 view .LVU11
-  19:run.cpp       **** 	unsigned char const *p = reinterpret_cast<unsigned char const *>(&value);
-  84              		.loc 1 19 2 view .LVU12
-  20:run.cpp       **** 	memcpy((sizeof(uint16_t) * value_count) + ram, p, sizeof(uint16_t));
-  85              		.loc 1 20 2 view .LVU13
-  86              		.loc 1 20 29 is_stmt 0 view .LVU14
+  21:run.cpp       **** 	int32_t *ram = (int32_t *)0xC0000000;
+  83              		.loc 1 21 2 view .LVU11
+  22:run.cpp       **** 	unsigned char const *p = reinterpret_cast<unsigned char const *>(&value);
+  84              		.loc 1 22 2 view .LVU12
+  23:run.cpp       **** 	memcpy((sizeof(uint16_t) * value_count) + ram, p, sizeof(uint16_t));
+  85              		.loc 1 23 2 view .LVU13
+  86              		.loc 1 23 42 is_stmt 0 view .LVU14
   87 0000 0449     		ldr	r1, .L4
   88 0002 0B68     		ldr	r3, [r1]
-  89              		.loc 1 20 8 view .LVU15
+  89              		.loc 1 23 8 view .LVU15
   90 0004 DA00     		lsls	r2, r3, #3
-  21:run.cpp       **** 	value_count++;
-  91              		.loc 1 21 13 view .LVU16
+  24:run.cpp       **** 	value_count++;
+  91              		.loc 1 24 13 view .LVU16
   92 0006 0133     		adds	r3, r3, #1
-  20:run.cpp       **** 	memcpy((sizeof(uint16_t) * value_count) + ram, p, sizeof(uint16_t));
-  93              		.loc 1 20 8 view .LVU17
+  23:run.cpp       **** 	memcpy((sizeof(uint16_t) * value_count) + ram, p, sizeof(uint16_t));
+  93              		.loc 1 23 8 view .LVU17
   94 0008 02F14042 		add	r2, r2, #-1073741824
-  95              		.loc 1 21 13 view .LVU18
+  95              		.loc 1 24 13 view .LVU18
   96 000c 0B60     		str	r3, [r1]
-  20:run.cpp       **** 	memcpy((sizeof(uint16_t) * value_count) + ram, p, sizeof(uint16_t));
-  97              		.loc 1 20 8 view .LVU19
+  23:run.cpp       **** 	memcpy((sizeof(uint16_t) * value_count) + ram, p, sizeof(uint16_t));
+  97              		.loc 1 23 8 view .LVU19
   98 000e 1080     		strh	r0, [r2]	@ movhi
-  99              		.loc 1 21 2 is_stmt 1 view .LVU20
-  22:run.cpp       **** }
- 100              		.loc 1 22 1 is_stmt 0 view .LVU21
+  99              		.loc 1 24 2 is_stmt 1 view .LVU20
+  25:run.cpp       **** }
+ 100              		.loc 1 25 1 is_stmt 0 view .LVU21
  101 0010 7047     		bx	lr
+ARM GAS  /tmp/ccD6FYWN.s 			page 9
+
+
  102              	.L5:
  103 0012 00BF     		.align	2
  104              	.L4:
-ARM GAS  /tmp/ccEFuv8d.s 			page 9
-
-
  105 0014 00000000 		.word	_ZL11value_count
  106              		.cfi_endproc
  107              	.LFE4788:
- 109              		.section	.text._Z16get_avg_from_ramv,"ax",%progbits
- 110              		.align	1
- 111              		.p2align 2,,3
- 112              		.global	_Z16get_avg_from_ramv
- 113              		.syntax unified
- 114              		.thumb
- 115              		.thumb_func
- 117              	_Z16get_avg_from_ramv:
- 118              	.LFB4789:
-  23:run.cpp       **** 
-  24:run.cpp       **** void get_avg_from_ram(){
- 119              		.loc 1 24 24 is_stmt 1 view -0
- 120              		.cfi_startproc
- 121              		@ args = 0, pretend = 0, frame = 0
- 122              		@ frame_needed = 0, uses_anonymous_args = 0
-  25:run.cpp       **** 	int32_t *ram = (int32_t *)0xC0000000;
- 123              		.loc 1 25 2 view .LVU23
- 124              	.LVL2:
-  26:run.cpp       **** 	uint64_t sum = 0.0;
- 125              		.loc 1 26 2 view .LVU24
-  27:run.cpp       **** 	for (size_t i = 0; i < NUMBER_OF_VALUES; i++)
- 126              		.loc 1 27 2 view .LVU25
- 127              	.LBB63:
- 128              		.loc 1 27 23 discriminator 1 view .LVU26
- 129              	.LBE63:
-  24:run.cpp       **** 	int32_t *ram = (int32_t *)0xC0000000;
- 130              		.loc 1 24 24 is_stmt 0 view .LVU27
- 131 0000 10B5     		push	{r4, lr}
- 132              		.cfi_def_cfa_offset 8
- 133              		.cfi_offset 4, -8
- 134              		.cfi_offset 14, -4
-  24:run.cpp       **** 	int32_t *ram = (int32_t *)0xC0000000;
- 135              		.loc 1 24 24 view .LVU28
- 136 0002 4FF48064 		mov	r4, #1024
- 137              	.LVL3:
- 138              	.L7:
- 139              	.LBB65:
- 140              	.LBB64:
-  28:run.cpp       **** 	{
-  29:run.cpp       **** 		uint16_t result;
- 141              		.loc 1 29 3 is_stmt 1 view .LVU29
-  30:run.cpp       **** 		unsigned char const *p = (unsigned char const *)((sizeof(uint16_t) * i) + ram);
- 142              		.loc 1 30 3 view .LVU30
-  31:run.cpp       **** 		memcpy(&result, p, sizeof(uint16_t));
- 143              		.loc 1 31 3 view .LVU31
-  32:run.cpp       **** 		sum += result;
- 144              		.loc 1 32 3 view .LVU32
-  33:run.cpp       **** 		System::Delay(1);
- 145              		.loc 1 33 3 view .LVU33
- 146              		.loc 1 33 16 is_stmt 0 view .LVU34
- 147 0006 0120     		movs	r0, #1
- 148 0008 FFF7FEFF 		bl	_ZN5daisy6System5DelayEm
- 149              	.LVL4:
- 150              		.loc 1 33 16 view .LVU35
-ARM GAS  /tmp/ccEFuv8d.s 			page 10
+ 109              		.section	.rodata._Z27calculate_voltages_and_tempv.str1.4,"aMS",%progbits,1
+ 110              		.align	2
+ 111              	.LC0:
+ 112 0000 2537643B 		.ascii	"%7d;%2.6f;%4.6f\000"
+ 112      25322E36 
+ 112      663B2534 
+ 112      2E366600 
+ 113              		.section	.text._Z27calculate_voltages_and_tempv,"ax",%progbits
+ 114              		.align	1
+ 115              		.p2align 2,,3
+ 116              		.global	_Z27calculate_voltages_and_tempv
+ 117              		.syntax unified
+ 118              		.thumb
+ 119              		.thumb_func
+ 121              	_Z27calculate_voltages_and_tempv:
+ 122              	.LFB4789:
+  26:run.cpp       **** 
+  27:run.cpp       **** void calculate_voltages_and_temp(){
+ 123              		.loc 1 27 35 is_stmt 1 view -0
+ 124              		.cfi_startproc
+ 125              		@ args = 0, pretend = 0, frame = 0
+ 126              		@ frame_needed = 0, uses_anonymous_args = 0
+  28:run.cpp       **** 	int32_t *ram = (int32_t *)0xC0000000;
+ 127              		.loc 1 28 2 view .LVU23
+ 128              	.LVL2:
+  29:run.cpp       **** 	for (size_t i = 1; i < value_count; i++)
+ 129              		.loc 1 29 2 view .LVU24
+ 130              	.LBB58:
+ 131              		.loc 1 29 23 discriminator 1 view .LVU25
+ 132              	.LBE58:
+  27:run.cpp       **** 	int32_t *ram = (int32_t *)0xC0000000;
+ 133              		.loc 1 27 35 is_stmt 0 view .LVU26
+ 134 0000 70B5     		push	{r4, r5, r6, lr}
+ 135              		.cfi_def_cfa_offset 16
+ 136              		.cfi_offset 4, -16
+ 137              		.cfi_offset 5, -12
+ 138              		.cfi_offset 6, -8
+ 139              		.cfi_offset 14, -4
+ 140              	.LBB70:
+ 141              		.loc 1 29 23 discriminator 1 view .LVU27
+ 142 0002 184E     		ldr	r6, .L11
+ 143              	.LBE70:
+  27:run.cpp       **** 	int32_t *ram = (int32_t *)0xC0000000;
+ 144              		.loc 1 27 35 view .LVU28
+ 145 0004 82B0     		sub	sp, sp, #8
+ 146              		.cfi_def_cfa_offset 24
+ 147              	.LBB71:
+ 148              		.loc 1 29 23 discriminator 1 view .LVU29
+ 149 0006 3368     		ldr	r3, [r6]
+ 150 0008 012B     		cmp	r3, #1
+ 151 000a 26D9     		bls	.L7
+ARM GAS  /tmp/ccD6FYWN.s 			page 10
 
 
- 151              	.LBE64:
-  27:run.cpp       **** 	{
- 152              		.loc 1 27 2 is_stmt 1 discriminator 3 view .LVU36
-  27:run.cpp       **** 	{
- 153              		.loc 1 27 23 discriminator 1 view .LVU37
- 154 000c 013C     		subs	r4, r4, #1
- 155 000e FAD1     		bne	.L7
- 156              	.LBE65:
-  34:run.cpp       **** 	}
-  35:run.cpp       **** 	uint16_t avg = sum / NUMBER_OF_VALUES;
- 157              		.loc 1 35 2 view .LVU38
- 158              	.LVL5:
-  36:run.cpp       **** 	System::Delay(1);
- 159              		.loc 1 36 2 view .LVU39
- 160              		.loc 1 36 15 is_stmt 0 view .LVU40
- 161 0010 0120     		movs	r0, #1
-  37:run.cpp       **** }
- 162              		.loc 1 37 1 view .LVU41
- 163 0012 BDE81040 		pop	{r4, lr}
- 164              		.cfi_restore 14
- 165              		.cfi_restore 4
- 166              		.cfi_def_cfa_offset 0
-  36:run.cpp       **** 	System::Delay(1);
- 167              		.loc 1 36 15 view .LVU42
- 168 0016 FFF7FEBF 		b	_ZN5daisy6System5DelayEm
- 169              	.LVL6:
- 170              		.cfi_endproc
- 171              	.LFE4789:
- 173 001a 00BF     		.section	.text._Z19collect_temperaturev,"ax",%progbits
- 174              		.align	1
- 175              		.p2align 2,,3
- 176              		.global	_Z19collect_temperaturev
- 177              		.syntax unified
- 178              		.thumb
- 179              		.thumb_func
- 181              	_Z19collect_temperaturev:
- 182              	.LFB4790:
-  38:run.cpp       **** 
-  39:run.cpp       **** 
-  40:run.cpp       **** void collect_temperature() {
- 183              		.loc 1 40 28 is_stmt 1 view -0
- 184              		.cfi_startproc
- 185              		@ args = 0, pretend = 0, frame = 0
- 186              		@ frame_needed = 0, uses_anonymous_args = 0
-  41:run.cpp       **** 		for (size_t i = 0; i < NUMBER_OF_VALUES; i++)
- 187              		.loc 1 41 3 view .LVU44
- 188              	.LVL7:
- 189              	.LBB66:
- 190              		.loc 1 41 24 discriminator 1 view .LVU45
- 191              	.LBE66:
-  40:run.cpp       **** 		for (size_t i = 0; i < NUMBER_OF_VALUES; i++)
- 192              		.loc 1 40 28 is_stmt 0 view .LVU46
- 193 0000 38B5     		push	{r3, r4, r5, lr}
- 194              		.cfi_def_cfa_offset 16
- 195              		.cfi_offset 3, -16
- 196              		.cfi_offset 4, -12
- 197              		.cfi_offset 5, -8
-ARM GAS  /tmp/ccEFuv8d.s 			page 11
-
-
- 198              		.cfi_offset 14, -4
-  40:run.cpp       **** 		for (size_t i = 0; i < NUMBER_OF_VALUES; i++)
- 199              		.loc 1 40 28 view .LVU47
- 200 0002 4FF48064 		mov	r4, #1024
- 201 0006 094D     		ldr	r5, .L14
- 202              	.LVL8:
- 203              	.L11:
- 204              	.LBB73:
-  42:run.cpp       **** 		{
-  43:run.cpp       **** 			store_value(hw.adc.Get(0));
- 205              		.loc 1 43 4 is_stmt 1 view .LVU48
- 206              		.loc 1 43 15 is_stmt 0 view .LVU49
- 207 0008 0021     		movs	r1, #0
- 208 000a 0948     		ldr	r0, .L14+4
- 209 000c FFF7FEFF 		bl	_ZNK5daisy9AdcHandle3GetEh
- 210              	.LVL9:
- 211              	.LBB67:
- 212              	.LBB68:
-  20:run.cpp       **** 	value_count++;
- 213              		.loc 1 20 29 view .LVU50
- 214 0010 2B68     		ldr	r3, [r5]
- 215              	.LBE68:
- 216              	.LBE67:
- 217              		.loc 1 43 15 view .LVU51
- 218 0012 0146     		mov	r1, r0
- 219              	.LVL10:
- 220              	.LBB71:
- 221              	.LBI67:
-  17:run.cpp       **** 	int32_t *ram = (int32_t *)0xC0000000;
- 222              		.loc 1 17 6 is_stmt 1 view .LVU52
- 223              	.LBB69:
-  18:run.cpp       **** 	unsigned char const *p = reinterpret_cast<unsigned char const *>(&value);
- 224              		.loc 1 18 2 view .LVU53
-  19:run.cpp       **** 	memcpy((sizeof(uint16_t) * value_count) + ram, p, sizeof(uint16_t));
- 225              		.loc 1 19 2 view .LVU54
-  20:run.cpp       **** 	value_count++;
- 226              		.loc 1 20 2 view .LVU55
- 227              	.LBE69:
- 228              	.LBE71:
-  44:run.cpp       **** 			System::Delay(1);
- 229              		.loc 1 44 17 is_stmt 0 view .LVU56
- 230 0014 0120     		movs	r0, #1
- 231              	.LBB72:
- 232              	.LBB70:
-  20:run.cpp       **** 	value_count++;
- 233              		.loc 1 20 8 view .LVU57
- 234 0016 DA00     		lsls	r2, r3, #3
-  21:run.cpp       **** }
- 235              		.loc 1 21 13 view .LVU58
- 236 0018 0344     		add	r3, r3, r0
-  20:run.cpp       **** 	value_count++;
- 237              		.loc 1 20 8 view .LVU59
- 238 001a 02F14042 		add	r2, r2, #-1073741824
-  21:run.cpp       **** }
- 239              		.loc 1 21 13 view .LVU60
- 240 001e 2B60     		str	r3, [r5]
-  20:run.cpp       **** 	value_count++;
-ARM GAS  /tmp/ccEFuv8d.s 			page 12
-
-
- 241              		.loc 1 20 8 view .LVU61
- 242 0020 1180     		strh	r1, [r2]	@ movhi
-  21:run.cpp       **** }
- 243              		.loc 1 21 2 is_stmt 1 view .LVU62
- 244              	.LVL11:
-  21:run.cpp       **** }
- 245              		.loc 1 21 2 is_stmt 0 view .LVU63
- 246              	.LBE70:
- 247              	.LBE72:
- 248              		.loc 1 44 4 is_stmt 1 view .LVU64
- 249              		.loc 1 44 17 is_stmt 0 view .LVU65
- 250 0022 FFF7FEFF 		bl	_ZN5daisy6System5DelayEm
- 251              	.LVL12:
-  41:run.cpp       **** 		{
- 252              		.loc 1 41 3 is_stmt 1 discriminator 3 view .LVU66
-  41:run.cpp       **** 		{
- 253              		.loc 1 41 24 discriminator 1 view .LVU67
- 254 0026 013C     		subs	r4, r4, #1
- 255 0028 EED1     		bne	.L11
- 256              	.LBE73:
-  45:run.cpp       **** 		}
-  46:run.cpp       **** }
- 257              		.loc 1 46 1 is_stmt 0 view .LVU68
- 258 002a 38BD     		pop	{r3, r4, r5, pc}
- 259              	.L15:
- 260              		.align	2
- 261              	.L14:
- 262 002c 00000000 		.word	_ZL11value_count
- 263 0030 18000000 		.word	hw+24
- 264              		.cfi_endproc
- 265              	.LFE4790:
- 267              		.section	.rodata.main.str1.4,"aMS",%progbits,1
- 268              		.align	2
- 269              	.LC0:
- 270 0000 57656C63 		.ascii	"Welcom, lets start\000"
- 270      6F6D2C20 
- 270      6C657473 
- 270      20737461 
- 270      727400
- 271 0013 00       		.align	2
- 272              	.LC1:
- 273 0014 41646320 		.ascii	"Adc Started, entering Loop\000"
- 273      53746172 
- 273      7465642C 
- 273      20656E74 
- 273      6572696E 
- 274 002f 00       		.align	2
- 275              	.LC2:
- 276 0030 41444320 		.ascii	"ADC 1: %d\000"
- 276      313A2025 
- 276      6400
- 277              		.section	.text.startup.main,"ax",%progbits
- 278              		.align	1
- 279              		.p2align 2,,3
- 280              		.global	main
- 281              		.syntax unified
- 282              		.thumb
-ARM GAS  /tmp/ccEFuv8d.s 			page 13
-
-
- 283              		.thumb_func
- 285              	main:
- 286              	.LFB4791:
-  47:run.cpp       **** 
-  48:run.cpp       **** 
-  49:run.cpp       **** int main(void)
-  50:run.cpp       **** {
- 287              		.loc 1 50 1 is_stmt 1 view -0
- 288              		.cfi_startproc
- 289              		@ args = 0, pretend = 0, frame = 80
- 290              		@ frame_needed = 0, uses_anonymous_args = 0
-  51:run.cpp       **** 	hw.Init();
- 291              		.loc 1 51 2 view .LVU70
-  50:run.cpp       **** 	hw.Init();
- 292              		.loc 1 50 1 is_stmt 0 view .LVU71
- 293 0000 30B5     		push	{r4, r5, lr}
- 294              		.cfi_def_cfa_offset 12
- 295              		.cfi_offset 4, -12
- 296              		.cfi_offset 5, -8
- 297              		.cfi_offset 14, -4
- 298 0002 95B0     		sub	sp, sp, #84
- 299              		.cfi_def_cfa_offset 96
-  52:run.cpp       **** 
-  53:run.cpp       **** 	/** Configure and Initialize the DAC */
-  54:run.cpp       ****     DacHandle::Config dac_cfg;
-  55:run.cpp       ****     dac_cfg.bitdepth   = DacHandle::BitDepth::BITS_12;
-  56:run.cpp       ****     dac_cfg.buff_state = DacHandle::BufferState::ENABLED;
-  57:run.cpp       ****     dac_cfg.mode       = DacHandle::Mode::POLLING;
-  58:run.cpp       ****     dac_cfg.chn        = DacHandle::Channel::ONE;
- 300              		.loc 1 58 24 view .LVU72
- 301 0004 0024     		movs	r4, #0
-  51:run.cpp       **** 
- 302              		.loc 1 51 9 view .LVU73
- 303 0006 0021     		movs	r1, #0
- 304 0008 2648     		ldr	r0, .L21
- 305              		.loc 1 58 24 view .LVU74
- 306 000a 0125     		movs	r5, #1
-  51:run.cpp       **** 
- 307              		.loc 1 51 9 view .LVU75
- 308 000c FFF7FEFF 		bl	_ZN5daisy9DaisySeed4InitEb
- 309              	.LVL13:
-  54:run.cpp       ****     dac_cfg.bitdepth   = DacHandle::BitDepth::BITS_12;
- 310              		.loc 1 54 5 is_stmt 1 view .LVU76
-  55:run.cpp       ****     dac_cfg.buff_state = DacHandle::BufferState::ENABLED;
- 311              		.loc 1 55 5 view .LVU77
-  56:run.cpp       ****     dac_cfg.mode       = DacHandle::Mode::POLLING;
- 312              		.loc 1 56 5 view .LVU78
-  57:run.cpp       ****     dac_cfg.chn        = DacHandle::Channel::ONE;
- 313              		.loc 1 57 5 view .LVU79
- 314              		.loc 1 58 5 view .LVU80
-  59:run.cpp       ****     hw.dac.Init(dac_cfg);
- 315              		.loc 1 59 16 is_stmt 0 view .LVU81
- 316 0010 08A9     		add	r1, sp, #32
- 317 0012 2548     		ldr	r0, .L21+4
-  58:run.cpp       ****     hw.dac.Init(dac_cfg);
- 318              		.loc 1 58 24 view .LVU82
- 319 0014 CDE90944 		strd	r4, r4, [sp, #36]
-ARM GAS  /tmp/ccEFuv8d.s 			page 14
-
-
- 320 0018 CDE90B54 		strd	r5, r4, [sp, #44]
- 321              		.loc 1 59 5 is_stmt 1 view .LVU83
- 322              		.loc 1 59 16 is_stmt 0 view .LVU84
- 323 001c FFF7FEFF 		bl	_ZN5daisy9DacHandle4InitERKNS0_6ConfigE
- 324              	.LVL14:
-  60:run.cpp       **** 
-  61:run.cpp       **** 	bool dac_is_high = false;
- 325              		.loc 1 61 2 is_stmt 1 view .LVU85
-  62:run.cpp       **** 
-  63:run.cpp       ****     // hw.PrintLine("Verify CRT floating point format: %.3f.", 123.0f);
-  64:run.cpp       **** 	hw.StartLog();
- 326              		.loc 1 64 2 view .LVU86
- 327              	.LBB74:
- 328              	.LBI74:
+ 152 000c 164D     		ldr	r5, .L11+4
+ 153              		.loc 1 29 14 view .LVU30
+ 154 000e 0124     		movs	r4, #1
+ 155              	.LVL3:
+ 156              	.L8:
+ 157              	.LBB59:
+  30:run.cpp       **** 	{
+  31:run.cpp       **** 		uint16_t result;
+ 158              		.loc 1 31 3 is_stmt 1 view .LVU31
+  32:run.cpp       **** 		unsigned char const *p = (unsigned char const *)((sizeof(uint16_t) * i) + ram);
+ 159              		.loc 1 32 3 view .LVU32
+  33:run.cpp       **** 		memcpy(&result, p, sizeof(uint16_t));
+ 160              		.loc 1 33 3 view .LVU33
+  34:run.cpp       **** 		// Calculate Voltage
+  35:run.cpp       **** 		float_t v =  VEE * (result / ADC_MAX);
+ 161              		.loc 1 35 3 view .LVU34
+ 162              		.loc 1 35 23 is_stmt 0 view .LVU35
+ 163 0010 35F8081B 		ldrh	r1, [r5], #8
+ 164              	.LVL4:
+ 165              		.loc 1 35 23 view .LVU36
+ 166              	.LBE59:
+  29:run.cpp       **** 	{
+ 167              		.loc 1 29 2 discriminator 3 view .LVU37
+ 168 0014 0134     		adds	r4, r4, #1
+ 169              	.LVL5:
+ 170              	.LBB69:
+ 171              		.loc 1 35 30 view .LVU38
+ 172 0016 9FED156A 		vldr.32	s12, .L11+8
+ 173 001a 07EE101A 		vmov	s14, r1	@ int
+ 174              		.loc 1 35 11 view .LVU39
+ 175 001e DFED147A 		vldr.32	s15, .L11+12
+  36:run.cpp       **** 		// Calculate Resistance
+  37:run.cpp       **** 		float_t t = ((VEE - v) * R_1) / v;
+ 176              		.loc 1 37 26 view .LVU40
+ 177 0022 DFED146A 		vldr.32	s13, .L11+16
+  35:run.cpp       **** 		// Calculate Resistance
+ 178              		.loc 1 35 30 view .LVU41
+ 179 0026 F8EEC75A 		vcvt.f32.s32	s11, s14
+ 180              	.LBB60:
+ 181              	.LBB61:
   23:../../DaisyExamples/libDaisy//src/daisy_seed.h **** 
   24:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     /** This function used to provide a pre-initialization configuraiton 
   25:../../DaisyExamples/libDaisy//src/daisy_seed.h ****      *  it has since been deprecated, and does nothing.
@@ -812,6 +598,9 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   37:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     */
   38:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     void Init(bool boost = false);
   39:../../DaisyExamples/libDaisy//src/daisy_seed.h **** 
+ARM GAS  /tmp/ccD6FYWN.s 			page 11
+
+
   40:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     /** 
   41:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     Deinitializes all peripherals automatically handled by `Init`.
   42:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     */
@@ -838,9 +627,6 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   63:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     /** Begins the audio for the seeds builtin audio.
   64:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     the specified callback will get called whenever
   65:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     new data is ready to be prepared.
-ARM GAS  /tmp/ccEFuv8d.s 			page 15
-
-
   66:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     This will use the newer non-interleaved callback.
   67:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     */
   68:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     void StartAudio(AudioHandle::AudioCallback cb);
@@ -872,6 +658,9 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   94:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     /** Returns the number of samples per channel in a block of audio. */
   95:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     size_t AudioBlockSize();
   96:../../DaisyExamples/libDaisy//src/daisy_seed.h **** 
+ARM GAS  /tmp/ccD6FYWN.s 			page 12
+
+
   97:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     /** Returns the rate in Hz that the Audio callback is called */
   98:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     float AudioCallbackRate() const;
   99:../../DaisyExamples/libDaisy//src/daisy_seed.h **** 
@@ -897,263 +686,465 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
  119:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     static void PrintLine(const char* format, VA... va)
  120:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     {
  121:../../DaisyExamples/libDaisy//src/daisy_seed.h ****         Log::PrintLine(format, va...);
+ 182              		.loc 2 121 23 view .LVU42
+ 183 002a 1348     		ldr	r0, .L11+20
+ 184              	.LBE61:
+ 185              	.LBE60:
+  35:run.cpp       **** 		// Calculate Resistance
+ 186              		.loc 1 35 30 view .LVU43
+ 187 002c 85EE867A 		vdiv.f32	s14, s11, s12
+  35:run.cpp       **** 		// Calculate Resistance
+ 188              		.loc 1 35 11 view .LVU44
+ 189 0030 27EE277A 		vmul.f32	s14, s14, s15
+ 190              	.LVL6:
+ 191              		.loc 1 37 3 is_stmt 1 view .LVU45
+  38:run.cpp       **** 		hw.PrintLine("%7d;%2.6f;%4.6f", result, v, t);
+ 192              		.loc 1 38 3 view .LVU46
+ 193              	.LBB65:
+ 194              	.LBI60:
+ 119:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     {
+ 195              		.loc 2 119 17 view .LVU47
+ 196              	.LBE65:
+  37:run.cpp       **** 		hw.PrintLine("%7d;%2.6f;%4.6f", result, v, t);
+ 197              		.loc 1 37 21 is_stmt 0 view .LVU48
+ 198 0034 77EEC77A 		vsub.f32	s15, s15, s14
+ 199              	.LBB66:
+ 200              	.LBB62:
+ 201              		.loc 2 121 23 view .LVU49
+ 202 0038 B7EEC75A 		vcvt.f64.f32	d5, s14
+ 203              	.LBE62:
+ 204              	.LBE66:
+  37:run.cpp       **** 		hw.PrintLine("%7d;%2.6f;%4.6f", result, v, t);
+ 205              		.loc 1 37 26 view .LVU50
+ 206 003c 67EEA67A 		vmul.f32	s15, s15, s13
+ 207              	.LBB67:
+ARM GAS  /tmp/ccD6FYWN.s 			page 13
+
+
+ 208              	.LBB63:
+ 209              		.loc 2 121 23 view .LVU51
+ 210 0040 53EC152B 		vmov	r2, r3, d5
+ 211              	.LBE63:
+ 212              	.LBE67:
+  37:run.cpp       **** 		hw.PrintLine("%7d;%2.6f;%4.6f", result, v, t);
+ 213              		.loc 1 37 11 view .LVU52
+ 214 0044 C7EE876A 		vdiv.f32	s13, s15, s14
+ 215              	.LVL7:
+ 216              	.LBB68:
+ 217              	.LBB64:
+ 218              		.loc 2 121 23 view .LVU53
+ 219 0048 B7EEE67A 		vcvt.f64.f32	d7, s13
+ 220              	.LVL8:
+ 221              		.loc 2 121 23 view .LVU54
+ 222 004c 8DED007B 		vstr.64	d7, [sp]
+ 223              	.LVL9:
+ 224              		.loc 2 121 23 view .LVU55
+ 225 0050 FFF7FEFF 		bl	_ZN5daisy6LoggerILNS_17LoggerDestinationE1EE9PrintLineEPKcz
+ 226              	.LVL10:
+ 227              		.loc 2 121 23 view .LVU56
+ 228              	.LBE64:
+ 229              	.LBE68:
+ 230              	.LBE69:
+  29:run.cpp       **** 	{
+ 231              		.loc 1 29 2 is_stmt 1 discriminator 3 view .LVU57
+  29:run.cpp       **** 	{
+ 232              		.loc 1 29 23 discriminator 1 view .LVU58
+ 233 0054 3368     		ldr	r3, [r6]
+ 234 0056 A342     		cmp	r3, r4
+ 235 0058 DAD8     		bhi	.L8
+ 236              	.LVL11:
+ 237              	.L7:
+  29:run.cpp       **** 	{
+ 238              		.loc 1 29 23 is_stmt 0 discriminator 1 view .LVU59
+ 239              	.LBE71:
+  39:run.cpp       **** 	}
+  40:run.cpp       **** 	value_count = 0;
+ 240              		.loc 1 40 2 is_stmt 1 view .LVU60
+ 241              		.loc 1 40 14 is_stmt 0 view .LVU61
+ 242 005a 0023     		movs	r3, #0
+ 243 005c 3360     		str	r3, [r6]
+  41:run.cpp       **** }
+ 244              		.loc 1 41 1 view .LVU62
+ 245 005e 02B0     		add	sp, sp, #8
+ 246              		.cfi_def_cfa_offset 16
+ 247              		@ sp needed
+ 248 0060 70BD     		pop	{r4, r5, r6, pc}
+ 249              	.L12:
+ 250 0062 00BF     		.align	2
+ 251              	.L11:
+ 252 0064 00000000 		.word	_ZL11value_count
+ 253 0068 080000C0 		.word	-1073741816
+ 254 006c 00FF7F47 		.word	1199570688
+ 255 0070 33335340 		.word	1079194419
+ 256 0074 00007A44 		.word	1148846080
+ 257 0078 00000000 		.word	.LC0
+ARM GAS  /tmp/ccD6FYWN.s 			page 14
+
+
+ 258              		.cfi_endproc
+ 259              	.LFE4789:
+ 261              		.section	.text.startup.main,"ax",%progbits
+ 262              		.align	1
+ 263              		.p2align 2,,3
+ 264              		.global	main
+ 265              		.syntax unified
+ 266              		.thumb
+ 267              		.thumb_func
+ 269              	main:
+ 270              	.LFB4790:
+  42:run.cpp       **** 
+  43:run.cpp       **** int main(void)
+  44:run.cpp       **** {
+ 271              		.loc 1 44 1 is_stmt 1 view -0
+ 272              		.cfi_startproc
+ 273              		@ args = 0, pretend = 0, frame = 48
+ 274              		@ frame_needed = 0, uses_anonymous_args = 0
+  45:run.cpp       **** 	hw.Init();
+ 275              		.loc 1 45 2 view .LVU64
+  44:run.cpp       **** 	hw.Init();
+ 276              		.loc 1 44 1 is_stmt 0 view .LVU65
+ 277 0000 10B5     		push	{r4, lr}
+ 278              		.cfi_def_cfa_offset 8
+ 279              		.cfi_offset 4, -8
+ 280              		.cfi_offset 14, -4
+ 281              		.loc 1 45 9 view .LVU66
+ 282 0002 0021     		movs	r1, #0
+  44:run.cpp       **** 	hw.Init();
+ 283              		.loc 1 44 1 view .LVU67
+ 284 0004 8CB0     		sub	sp, sp, #48
+ 285              		.cfi_def_cfa_offset 56
+ 286              		.loc 1 45 9 view .LVU68
+ 287 0006 3248     		ldr	r0, .L19
+  46:run.cpp       **** 
+  47:run.cpp       **** 	/** Configure and Initialize the DAC */
+  48:run.cpp       ****     DacHandle::Config dac_cfg;
+  49:run.cpp       ****     dac_cfg.bitdepth   = DacHandle::BitDepth::BITS_12;
+  50:run.cpp       ****     dac_cfg.buff_state = DacHandle::BufferState::ENABLED;
+  51:run.cpp       ****     dac_cfg.mode       = DacHandle::Mode::POLLING;
+  52:run.cpp       ****     dac_cfg.chn        = DacHandle::Channel::ONE;
+ 288              		.loc 1 52 24 view .LVU69
+ 289 0008 0124     		movs	r4, #1
+  45:run.cpp       **** 
+ 290              		.loc 1 45 9 view .LVU70
+ 291 000a FFF7FEFF 		bl	_ZN5daisy9DaisySeed4InitEb
+ 292              	.LVL12:
+  48:run.cpp       ****     dac_cfg.bitdepth   = DacHandle::BitDepth::BITS_12;
+ 293              		.loc 1 48 5 is_stmt 1 view .LVU71
+  49:run.cpp       ****     dac_cfg.buff_state = DacHandle::BufferState::ENABLED;
+ 294              		.loc 1 49 5 view .LVU72
+  50:run.cpp       ****     dac_cfg.mode       = DacHandle::Mode::POLLING;
+ 295              		.loc 1 50 5 view .LVU73
+  51:run.cpp       ****     dac_cfg.chn        = DacHandle::Channel::ONE;
+ 296              		.loc 1 51 5 view .LVU74
+ 297              		.loc 1 52 5 view .LVU75
+ 298              		.loc 1 52 24 is_stmt 0 view .LVU76
+ARM GAS  /tmp/ccD6FYWN.s 			page 15
+
+
+ 299 000e 0023     		movs	r3, #0
+  53:run.cpp       ****     hw.dac.Init(dac_cfg);
+ 300              		.loc 1 53 16 view .LVU77
+ 301 0010 06A9     		add	r1, sp, #24
+ 302 0012 3048     		ldr	r0, .L19+4
+  52:run.cpp       ****     hw.dac.Init(dac_cfg);
+ 303              		.loc 1 52 24 view .LVU78
+ 304 0014 CDE90943 		strd	r4, r3, [sp, #36]
+ 305              		.loc 1 53 5 is_stmt 1 view .LVU79
+  52:run.cpp       ****     hw.dac.Init(dac_cfg);
+ 306              		.loc 1 52 24 is_stmt 0 view .LVU80
+ 307 0018 CDE90733 		strd	r3, r3, [sp, #28]
+ 308              		.loc 1 53 16 view .LVU81
+ 309 001c FFF7FEFF 		bl	_ZN5daisy9DacHandle4InitERKNS0_6ConfigE
+ 310              	.LVL13:
+  54:run.cpp       **** 
+  55:run.cpp       **** 	bool dac_is_high = false;
+ 311              		.loc 1 55 2 is_stmt 1 view .LVU82
+  56:run.cpp       **** 
+  57:run.cpp       **** 	// Wait for Serial connection
+  58:run.cpp       **** 	hw.StartLog(true);
+ 312              		.loc 1 58 2 view .LVU83
+ 313              	.LBB72:
+ 314              	.LBI72:
  122:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     }
-ARM GAS  /tmp/ccEFuv8d.s 			page 16
-
-
  123:../../DaisyExamples/libDaisy//src/daisy_seed.h **** 
  124:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     /** Start the logging session. Optionally wait for terminal connection before proceeding.
  125:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     */
  126:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     static void StartLog(bool wait_for_pc = false)
- 329              		.loc 2 126 17 view .LVU87
- 330              	.LBB75:
+ 315              		.loc 2 126 17 view .LVU84
+ 316              	.LBB73:
  127:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     {
  128:../../DaisyExamples/libDaisy//src/daisy_seed.h ****         Log::StartLog(wait_for_pc);
- 331              		.loc 2 128 9 view .LVU88
- 332              		.loc 2 128 22 is_stmt 0 view .LVU89
- 333 0020 2046     		mov	r0, r4
- 334 0022 FFF7FEFF 		bl	_ZN5daisy6LoggerILNS_17LoggerDestinationE1EE8StartLogEb
- 335              	.LVL15:
- 336              		.loc 2 128 22 view .LVU90
- 337              	.LBE75:
- 338              	.LBE74:
-  65:run.cpp       **** 	hw.PrintLine("Welcom, lets start");
- 339              		.loc 1 65 2 is_stmt 1 view .LVU91
- 340              	.LBB76:
- 341              	.LBI76:
- 119:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     {
- 342              		.loc 2 119 17 view .LVU92
- 343              	.LBB77:
- 121:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     }
- 344              		.loc 2 121 23 is_stmt 0 view .LVU93
- 345 0026 2148     		ldr	r0, .L21+8
- 346 0028 FFF7FEFF 		bl	_ZN5daisy6LoggerILNS_17LoggerDestinationE1EE9PrintLineEPKcz
- 347              	.LVL16:
- 121:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     }
- 348              		.loc 2 121 23 view .LVU94
- 349              	.LBE77:
- 350              	.LBE76:
-  66:run.cpp       **** 	Led led1;
- 351              		.loc 1 66 2 is_stmt 1 view .LVU95
- 352              	.LBB78:
- 353              	.LBI78:
- 354              		.file 7 "../../DaisyExamples/libDaisy//src/hid/led.h"
-   1:../../DaisyExamples/libDaisy//src/hid/led.h **** 
-   2:../../DaisyExamples/libDaisy//src/hid/led.h **** #pragma once
-   3:../../DaisyExamples/libDaisy//src/hid/led.h **** #ifndef DSY_LED_H
-   4:../../DaisyExamples/libDaisy//src/hid/led.h **** #define DSY_LED_H
-   5:../../DaisyExamples/libDaisy//src/hid/led.h **** #include "daisy_core.h"
-   6:../../DaisyExamples/libDaisy//src/hid/led.h **** #include "per/gpio.h"
-   7:../../DaisyExamples/libDaisy//src/hid/led.h **** 
-   8:../../DaisyExamples/libDaisy//src/hid/led.h **** /* TODO - Get this set up to work with the dev_leddriver stuff as well
-   9:../../DaisyExamples/libDaisy//src/hid/led.h **** - Setup Hardware PWM for pins that have it
-  10:../../DaisyExamples/libDaisy//src/hid/led.h **** */
-  11:../../DaisyExamples/libDaisy//src/hid/led.h **** 
-  12:../../DaisyExamples/libDaisy//src/hid/led.h **** namespace daisy
-  13:../../DaisyExamples/libDaisy//src/hid/led.h **** {
-  14:../../DaisyExamples/libDaisy//src/hid/led.h **** /**
-  15:../../DaisyExamples/libDaisy//src/hid/led.h ****     @brief LED Class providing simple Software PWM ability, etc \n 
-  16:../../DaisyExamples/libDaisy//src/hid/led.h ****     Eventually this will work with hardware PWM, and external LED Driver devices as well.
-  17:../../DaisyExamples/libDaisy//src/hid/led.h ****     @author shensley
-  18:../../DaisyExamples/libDaisy//src/hid/led.h ****     @date March 2020
-  19:../../DaisyExamples/libDaisy//src/hid/led.h ****     @ingroup feedback
-  20:../../DaisyExamples/libDaisy//src/hid/led.h **** */
-ARM GAS  /tmp/ccEFuv8d.s 			page 17
+ 317              		.loc 2 128 9 view .LVU85
+ 318              		.loc 2 128 22 is_stmt 0 view .LVU86
+ 319 0020 2046     		mov	r0, r4
+ 320 0022 FFF7FEFF 		bl	_ZN5daisy6LoggerILNS_17LoggerDestinationE1EE8StartLogEb
+ 321              	.LVL14:
+ 322              		.loc 2 128 22 view .LVU87
+ 323              	.LBE73:
+ 324              	.LBE72:
+  59:run.cpp       **** 	hw.SetLed(true);
+ 325              		.loc 1 59 2 is_stmt 1 view .LVU88
+ 326              		.loc 1 59 11 is_stmt 0 view .LVU89
+ 327 0026 2146     		mov	r1, r4
+ 328 0028 2948     		ldr	r0, .L19
+ 329 002a FFF7FEFF 		bl	_ZN5daisy9DaisySeed6SetLedEb
+ 330              	.LVL15:
+  60:run.cpp       **** 	AdcChannelConfig adcConfig;
+ 331              		.loc 1 60 2 is_stmt 1 view .LVU90
+  61:run.cpp       **** 	adcConfig.InitSingle(hw.GetPin(21));
+ 332              		.loc 1 61 2 view .LVU91
+ 333              		.loc 1 61 22 is_stmt 0 view .LVU92
+ 334 002e 1520     		movs	r0, #21
+ 335 0030 FFF7FEFF 		bl	_ZN5daisy9DaisySeed6GetPinEh
+ 336              	.LVL16:
+ 337 0034 ADF80000 		strh	r0, [sp]	@ movhi
+ARM GAS  /tmp/ccD6FYWN.s 			page 16
 
 
-  21:../../DaisyExamples/libDaisy//src/hid/led.h **** class Led
-  22:../../DaisyExamples/libDaisy//src/hid/led.h **** {
-  23:../../DaisyExamples/libDaisy//src/hid/led.h ****   public:
-  24:../../DaisyExamples/libDaisy//src/hid/led.h ****     Led() {}
- 355              		.loc 7 24 5 view .LVU96
- 356              		.loc 7 24 5 is_stmt 0 view .LVU97
- 357              	.LBE78:
-  67:run.cpp       **** 	led1.Init(hw.GetPin(28), false);
- 358              		.loc 1 67 2 is_stmt 1 view .LVU98
- 359              		.loc 1 67 11 is_stmt 0 view .LVU99
- 360 002c 1C20     		movs	r0, #28
- 361 002e FFF7FEFF 		bl	_ZN5daisy9DaisySeed6GetPinEh
- 362              	.LVL17:
- 363 0032 ADF80400 		strh	r0, [sp, #4]	@ movhi
- 364              		.loc 1 67 11 discriminator 1 view .LVU100
- 365 0036 9FED1E0A 		vldr.32	s0, .L21+12
- 366 003a 2246     		mov	r2, r4
- 367 003c 0199     		ldr	r1, [sp, #4]
- 368 003e 0DA8     		add	r0, sp, #52
- 369 0040 FFF7FEFF 		bl	_ZN5daisy3Led4InitE12dsy_gpio_pinbf
- 370              	.LVL18:
-  68:run.cpp       **** 	AdcChannelConfig adcConfig;
- 371              		.loc 1 68 2 is_stmt 1 view .LVU101
-  69:run.cpp       **** 	adcConfig.InitSingle(hw.GetPin(21));
- 372              		.loc 1 69 2 view .LVU102
- 373              		.loc 1 69 22 is_stmt 0 view .LVU103
- 374 0044 1520     		movs	r0, #21
- 375 0046 FFF7FEFF 		bl	_ZN5daisy9DaisySeed6GetPinEh
- 376              	.LVL19:
- 377 004a ADF80800 		strh	r0, [sp, #8]	@ movhi
- 378              		.loc 1 69 22 discriminator 1 view .LVU104
- 379 004e 0299     		ldr	r1, [sp, #8]
- 380 0050 03A8     		add	r0, sp, #12
- 381 0052 FFF7FEFF 		bl	_ZN5daisy16AdcChannelConfig10InitSingleE12dsy_gpio_pin
- 382              	.LVL20:
-  70:run.cpp       **** 
-  71:run.cpp       **** 	hw.adc.Init(&adcConfig, 1);
- 383              		.loc 1 71 2 is_stmt 1 view .LVU105
- 384              		.loc 1 71 13 is_stmt 0 view .LVU106
- 385 0056 0423     		movs	r3, #4
- 386 0058 2A46     		mov	r2, r5
- 387 005a 03A9     		add	r1, sp, #12
- 388 005c 1548     		ldr	r0, .L21+16
- 389 005e FFF7FEFF 		bl	_ZN5daisy9AdcHandle4InitEPNS_16AdcChannelConfigEjNS0_12OverSamplingE
- 390              	.LVL21:
-  72:run.cpp       **** 	hw.adc.Start();
- 391              		.loc 1 72 2 is_stmt 1 view .LVU107
- 392              		.loc 1 72 14 is_stmt 0 view .LVU108
- 393 0062 1448     		ldr	r0, .L21+16
- 394 0064 FFF7FEFF 		bl	_ZN5daisy9AdcHandle5StartEv
- 395              	.LVL22:
-  73:run.cpp       **** 	hw.PrintLine("Adc Started, entering Loop");
- 396              		.loc 1 73 2 is_stmt 1 view .LVU109
- 397              	.LBB79:
- 398              	.LBI79:
- 119:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     {
- 399              		.loc 2 119 17 view .LVU110
-ARM GAS  /tmp/ccEFuv8d.s 			page 18
+ 338              		.loc 1 61 22 discriminator 1 view .LVU93
+ 339 0038 0099     		ldr	r1, [sp]
+ 340 003a 01A8     		add	r0, sp, #4
+ 341 003c FFF7FEFF 		bl	_ZN5daisy16AdcChannelConfig10InitSingleE12dsy_gpio_pin
+ 342              	.LVL17:
+  62:run.cpp       **** 
+  63:run.cpp       **** 	hw.adc.Init(&adcConfig, 1);
+ 343              		.loc 1 63 2 is_stmt 1 view .LVU94
+ 344              		.loc 1 63 13 is_stmt 0 view .LVU95
+ 345 0040 0423     		movs	r3, #4
+ 346 0042 2246     		mov	r2, r4
+ 347 0044 2448     		ldr	r0, .L19+8
+ 348 0046 0DEB0301 		add	r1, sp, r3
+  64:run.cpp       **** 	hw.adc.Start();
+  65:run.cpp       **** 	while(value_count < NUMBER_OF_VALUES) {	
+ 349              		.loc 1 65 20 view .LVU96
+ 350 004a 244C     		ldr	r4, .L19+12
+  63:run.cpp       **** 	hw.adc.Start();
+ 351              		.loc 1 63 13 view .LVU97
+ 352 004c FFF7FEFF 		bl	_ZN5daisy9AdcHandle4InitEPNS_16AdcChannelConfigEjNS0_12OverSamplingE
+ 353              	.LVL18:
+  64:run.cpp       **** 	hw.adc.Start();
+ 354              		.loc 1 64 2 is_stmt 1 view .LVU98
+  64:run.cpp       **** 	hw.adc.Start();
+ 355              		.loc 1 64 14 is_stmt 0 view .LVU99
+ 356 0050 2148     		ldr	r0, .L19+8
+ 357 0052 FFF7FEFF 		bl	_ZN5daisy9AdcHandle5StartEv
+ 358              	.LVL19:
+ 359              		.loc 1 65 2 is_stmt 1 view .LVU100
+ 360              		.loc 1 65 20 view .LVU101
+ 361 0056 2368     		ldr	r3, [r4]
+ 362 0058 B3F5806F 		cmp	r3, #1024
+ 363 005c 2AD2     		bcs	.L14
+  66:run.cpp       **** 		System::DelayUs(48);
+ 364              		.loc 1 66 3 view .LVU102
+ 365              		.loc 1 66 18 is_stmt 0 view .LVU103
+ 366 005e 3020     		movs	r0, #48
+ 367 0060 FFF7FEFF 		bl	_ZN5daisy6System7DelayUsEm
+ 368              	.LVL20:
+  67:run.cpp       **** 		if(dac_is_high){
+ 369              		.loc 1 67 3 is_stmt 1 view .LVU104
+ 370 0064 0DE0     		b	.L15
+ 371              	.LVL21:
+ 372              	.L18:
+  66:run.cpp       **** 		System::DelayUs(48);
+ 373              		.loc 1 66 18 is_stmt 0 view .LVU105
+ 374 0066 FFF7FEFF 		bl	_ZN5daisy6System7DelayUsEm
+ 375              	.LVL22:
+ 376              		.loc 1 67 3 is_stmt 1 view .LVU106
+  68:run.cpp       **** 			hw.dac.WriteValue(DacHandle::Channel::ONE, 0b0); 
+ 377              		.loc 1 68 4 view .LVU107
+ 378              		.loc 1 68 21 is_stmt 0 view .LVU108
+ 379 006a 0022     		movs	r2, #0
+ 380 006c 1948     		ldr	r0, .L19+4
+ 381 006e 1146     		mov	r1, r2
+ 382 0070 FFF7FEFF 		bl	_ZN5daisy9DacHandle10WriteValueENS0_7ChannelEt
+ 383              	.LVL23:
+ARM GAS  /tmp/ccD6FYWN.s 			page 17
 
 
- 400              	.LBB80:
- 121:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     }
- 401              		.loc 2 121 23 is_stmt 0 view .LVU111
- 402 0068 1348     		ldr	r0, .L21+20
- 403 006a FFF7FEFF 		bl	_ZN5daisy6LoggerILNS_17LoggerDestinationE1EE9PrintLineEPKcz
- 404              	.LVL23:
- 405              	.L17:
- 121:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     }
- 406              		.loc 2 121 23 view .LVU112
- 407              	.LBE80:
- 408              	.LBE79:
-  74:run.cpp       **** 	while(1) {	
- 409              		.loc 1 74 2 is_stmt 1 view .LVU113
-  75:run.cpp       **** 		System::Delay(10);
- 410              		.loc 1 75 3 view .LVU114
- 411              		.loc 1 75 16 is_stmt 0 view .LVU115
- 412 006e 0A20     		movs	r0, #10
- 413 0070 FFF7FEFF 		bl	_ZN5daisy6System5DelayEm
- 414              	.LVL24:
-  76:run.cpp       **** 		hw.PrintLine("ADC 1: %d", hw.adc.Get(0));
- 415              		.loc 1 76 3 is_stmt 1 view .LVU116
- 416              		.loc 1 76 15 is_stmt 0 view .LVU117
- 417 0074 0021     		movs	r1, #0
- 418 0076 0F48     		ldr	r0, .L21+16
- 419 0078 FFF7FEFF 		bl	_ZNK5daisy9AdcHandle3GetEh
- 420              	.LVL25:
- 421              		.loc 1 76 15 view .LVU118
- 422 007c 0146     		mov	r1, r0
- 423              	.LVL26:
- 424              	.LBB81:
- 425              	.LBI81:
- 119:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     {
- 426              		.loc 2 119 17 is_stmt 1 view .LVU119
- 427              	.LBB82:
- 121:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     }
- 428              		.loc 2 121 23 is_stmt 0 view .LVU120
- 429 007e 0F48     		ldr	r0, .L21+24
- 430 0080 FFF7FEFF 		bl	_ZN5daisy6LoggerILNS_17LoggerDestinationE1EE9PrintLineEPKcz
- 431              	.LVL27:
- 121:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     }
- 432              		.loc 2 121 23 view .LVU121
- 433              	.LBE82:
- 434              	.LBE81:
-  77:run.cpp       **** 		if(dac_is_high){
- 435              		.loc 1 77 3 is_stmt 1 view .LVU122
-  78:run.cpp       **** 			hw.dac.WriteValue(DacHandle::Channel::ONE, 0b0); 
- 436              		.loc 1 78 4 view .LVU123
- 437              		.loc 1 78 21 is_stmt 0 view .LVU124
- 438 0084 0022     		movs	r2, #0
- 439 0086 0848     		ldr	r0, .L21+4
-  77:run.cpp       **** 		if(dac_is_high){
- 440              		.loc 1 77 3 view .LVU125
- 441 0088 24B1     		cbz	r4, .L18
- 442              		.loc 1 78 21 view .LVU126
- 443 008a 1146     		mov	r1, r2
-  79:run.cpp       **** 			dac_is_high = false;
- 444              		.loc 1 79 16 view .LVU127
-ARM GAS  /tmp/ccEFuv8d.s 			page 19
+  66:run.cpp       **** 		System::DelayUs(48);
+ 384              		.loc 1 66 3 is_stmt 1 view .LVU109
+  69:run.cpp       **** 			dac_is_high = false;
+ 385              		.loc 1 69 4 view .LVU110
+  65:run.cpp       **** 		System::DelayUs(48);
+ 386              		.loc 1 65 20 view .LVU111
+ 387 0074 2368     		ldr	r3, [r4]
+  66:run.cpp       **** 		if(dac_is_high){
+ 388              		.loc 1 66 18 is_stmt 0 view .LVU112
+ 389 0076 3020     		movs	r0, #48
+  65:run.cpp       **** 		System::DelayUs(48);
+ 390              		.loc 1 65 20 view .LVU113
+ 391 0078 B3F5806F 		cmp	r3, #1024
+ 392 007c 1AD2     		bcs	.L14
+  66:run.cpp       **** 		if(dac_is_high){
+ 393              		.loc 1 66 18 view .LVU114
+ 394 007e FFF7FEFF 		bl	_ZN5daisy6System7DelayUsEm
+ 395              	.LVL24:
+  67:run.cpp       **** 			hw.dac.WriteValue(DacHandle::Channel::ONE, 0b0); 
+ 396              		.loc 1 67 3 is_stmt 1 view .LVU115
+ 397              	.L15:
+  70:run.cpp       **** 		}
+  71:run.cpp       **** 		else {
+  72:run.cpp       **** 			// On rising Edge
+  73:run.cpp       **** 			store_value(hw.adc.Get(0));
+ 398              		.loc 1 73 4 view .LVU116
+ 399              		.loc 1 73 15 is_stmt 0 view .LVU117
+ 400 0082 0021     		movs	r1, #0
+ 401 0084 1448     		ldr	r0, .L19+8
+ 402 0086 FFF7FEFF 		bl	_ZNK5daisy9AdcHandle3GetEh
+ 403              	.LVL25:
+ 404              	.LBB74:
+ 405              	.LBB75:
+  23:run.cpp       **** 	value_count++;
+ 406              		.loc 1 23 42 view .LVU118
+ 407 008a 2368     		ldr	r3, [r4]
+ 408              	.LBE75:
+ 409              	.LBE74:
+ 410              		.loc 1 73 15 view .LVU119
+ 411 008c 8646     		mov	lr, r0
+ 412              	.LVL26:
+ 413              	.LBB79:
+ 414              	.LBI74:
+  20:run.cpp       **** 	int32_t *ram = (int32_t *)0xC0000000;
+ 415              		.loc 1 20 6 is_stmt 1 view .LVU120
+ 416              	.LBB76:
+  21:run.cpp       **** 	unsigned char const *p = reinterpret_cast<unsigned char const *>(&value);
+ 417              		.loc 1 21 2 view .LVU121
+  22:run.cpp       **** 	memcpy((sizeof(uint16_t) * value_count) + ram, p, sizeof(uint16_t));
+ 418              		.loc 1 22 2 view .LVU122
+  23:run.cpp       **** 	value_count++;
+ 419              		.loc 1 23 2 view .LVU123
+ 420              	.LBE76:
+ 421              	.LBE79:
+  74:run.cpp       **** 			// 4096 ~ 3.3V => 1284 ~ 1V
+  75:run.cpp       **** 			hw.dac.WriteValue(DacHandle::Channel::ONE, 1284);
+ 422              		.loc 1 75 21 is_stmt 0 view .LVU124
+ARM GAS  /tmp/ccD6FYWN.s 			page 18
 
 
- 445 008c 0024     		movs	r4, #0
- 446              	.LVL28:
-  78:run.cpp       **** 			hw.dac.WriteValue(DacHandle::Channel::ONE, 0b0); 
- 447              		.loc 1 78 21 view .LVU128
- 448 008e FFF7FEFF 		bl	_ZN5daisy9DacHandle10WriteValueENS0_7ChannelEt
- 449              	.LVL29:
- 450              		.loc 1 79 4 is_stmt 1 view .LVU129
- 451              		.loc 1 79 4 is_stmt 0 view .LVU130
- 452 0092 ECE7     		b	.L17
- 453              	.LVL30:
- 454              	.L18:
-  80:run.cpp       **** 		}
-  81:run.cpp       **** 		else {
-  82:run.cpp       **** 			hw.dac.WriteValue(DacHandle::Channel::ONE, 0b111111111111);
- 455              		.loc 1 82 4 is_stmt 1 view .LVU131
- 456              		.loc 1 82 21 is_stmt 0 view .LVU132
- 457 0094 2146     		mov	r1, r4
- 458 0096 40F6FF72 		movw	r2, #4095
- 459 009a 0348     		ldr	r0, .L21+4
-  83:run.cpp       **** 			dac_is_high = true;
- 460              		.loc 1 83 16 view .LVU133
- 461 009c 0124     		movs	r4, #1
-  82:run.cpp       **** 			dac_is_high = true;
- 462              		.loc 1 82 21 view .LVU134
- 463 009e FFF7FEFF 		bl	_ZN5daisy9DacHandle10WriteValueENS0_7ChannelEt
- 464              	.LVL31:
- 465              		.loc 1 83 4 is_stmt 1 view .LVU135
- 466              		.loc 1 83 4 is_stmt 0 view .LVU136
- 467 00a2 E4E7     		b	.L17
- 468              	.L22:
- 469              		.align	2
- 470              	.L21:
- 471 00a4 00000000 		.word	hw
- 472 00a8 20000000 		.word	hw+32
- 473 00ac 00000000 		.word	.LC0
- 474 00b0 00007A44 		.word	1148846080
- 475 00b4 18000000 		.word	hw+24
- 476 00b8 14000000 		.word	.LC1
- 477 00bc 30000000 		.word	.LC2
- 478              		.cfi_endproc
- 479              	.LFE4791:
- 481              		.section	.text.startup._GLOBAL__sub_I_hw,"ax",%progbits
- 482              		.align	1
- 483              		.p2align 2,,3
- 484              		.syntax unified
- 485              		.thumb
- 486              		.thumb_func
- 488              	_GLOBAL__sub_I_hw:
- 489              	.LFB5376:
-  84:run.cpp       **** 		}
-  85:run.cpp       **** 	}
-  86:run.cpp       **** }
- 490              		.loc 1 86 1 is_stmt 1 view -0
- 491              		.cfi_startproc
- 492              		@ args = 0, pretend = 0, frame = 0
- 493              		@ frame_needed = 0, uses_anonymous_args = 0
- 494              		@ link register save eliminated.
-ARM GAS  /tmp/ccEFuv8d.s 			page 20
+ 423 008e 40F20452 		movw	r2, #1284
+ 424              	.LBB80:
+ 425              	.LBB77:
+  23:run.cpp       **** 	value_count++;
+ 426              		.loc 1 23 8 view .LVU125
+ 427 0092 4FEAC30C 		lsl	ip, r3, #3
+  24:run.cpp       **** }
+ 428              		.loc 1 24 13 view .LVU126
+ 429 0096 0133     		adds	r3, r3, #1
+ 430              	.LBE77:
+ 431              	.LBE80:
+ 432              		.loc 1 75 21 view .LVU127
+ 433 0098 0021     		movs	r1, #0
+ 434 009a 0E48     		ldr	r0, .L19+4
+ 435              	.LBB81:
+ 436              	.LBB78:
+  23:run.cpp       **** 	value_count++;
+ 437              		.loc 1 23 8 view .LVU128
+ 438 009c 0CF1404C 		add	ip, ip, #-1073741824
+  24:run.cpp       **** }
+ 439              		.loc 1 24 13 view .LVU129
+ 440 00a0 2360     		str	r3, [r4]
+  23:run.cpp       **** 	value_count++;
+ 441              		.loc 1 23 8 view .LVU130
+ 442 00a2 ACF800E0 		strh	lr, [ip]	@ movhi
+  24:run.cpp       **** }
+ 443              		.loc 1 24 2 is_stmt 1 view .LVU131
+ 444              	.LVL27:
+  24:run.cpp       **** }
+ 445              		.loc 1 24 2 is_stmt 0 view .LVU132
+ 446              	.LBE78:
+ 447              	.LBE81:
+ 448              		.loc 1 75 4 is_stmt 1 view .LVU133
+ 449              		.loc 1 75 21 is_stmt 0 view .LVU134
+ 450 00a6 FFF7FEFF 		bl	_ZN5daisy9DacHandle10WriteValueENS0_7ChannelEt
+ 451              	.LVL28:
+  76:run.cpp       **** 			dac_is_high = true;
+ 452              		.loc 1 76 4 is_stmt 1 view .LVU135
+  65:run.cpp       **** 		System::DelayUs(48);
+ 453              		.loc 1 65 20 view .LVU136
+  66:run.cpp       **** 		if(dac_is_high){
+ 454              		.loc 1 66 3 view .LVU137
+  65:run.cpp       **** 		System::DelayUs(48);
+ 455              		.loc 1 65 20 is_stmt 0 view .LVU138
+ 456 00aa 2368     		ldr	r3, [r4]
+  66:run.cpp       **** 		if(dac_is_high){
+ 457              		.loc 1 66 18 view .LVU139
+ 458 00ac 3020     		movs	r0, #48
+  65:run.cpp       **** 		System::DelayUs(48);
+ 459              		.loc 1 65 20 view .LVU140
+ 460 00ae B3F5806F 		cmp	r3, #1024
+ 461 00b2 D8D3     		bcc	.L18
+ 462              	.LVL29:
+ 463              	.L14:
+  77:run.cpp       **** 		}
+  78:run.cpp       **** 	}
+  79:run.cpp       **** 	// 
+ARM GAS  /tmp/ccD6FYWN.s 			page 19
 
 
- 495              	.LBB101:
- 496              	.LBI101:
- 497              		.loc 1 86 1 view .LVU138
- 498              	.LVL32:
- 499              	.LBB102:
- 500              	.LBB103:
- 501              	.LBI103:
+  80:run.cpp       **** 	System::Delay(1000);
+ 464              		.loc 1 80 2 is_stmt 1 view .LVU141
+ 465              		.loc 1 80 15 is_stmt 0 view .LVU142
+ 466 00b4 4FF47A70 		mov	r0, #1000
+ 467 00b8 FFF7FEFF 		bl	_ZN5daisy6System5DelayEm
+ 468              	.LVL30:
+  81:run.cpp       **** 	// done turn of the LED
+  82:run.cpp       **** 	hw.SetLed(false);
+ 469              		.loc 1 82 2 is_stmt 1 view .LVU143
+ 470              		.loc 1 82 11 is_stmt 0 view .LVU144
+ 471 00bc 0021     		movs	r1, #0
+ 472 00be 0448     		ldr	r0, .L19
+ 473 00c0 FFF7FEFF 		bl	_ZN5daisy9DaisySeed6SetLedEb
+ 474              	.LVL31:
+  83:run.cpp       **** 	calculate_voltages_and_temp();	
+ 475              		.loc 1 83 2 is_stmt 1 view .LVU145
+ 476              		.loc 1 83 29 is_stmt 0 view .LVU146
+ 477 00c4 FFF7FEFF 		bl	_Z27calculate_voltages_and_tempv
+ 478              	.LVL32:
+  84:run.cpp       **** }
+ 479              		.loc 1 84 1 view .LVU147
+ 480 00c8 0020     		movs	r0, #0
+ 481 00ca 0CB0     		add	sp, sp, #48
+ 482              		.cfi_def_cfa_offset 8
+ 483              		@ sp needed
+ 484 00cc 10BD     		pop	{r4, pc}
+ 485              	.L20:
+ 486 00ce 00BF     		.align	2
+ 487              	.L19:
+ 488 00d0 00000000 		.word	hw
+ 489 00d4 20000000 		.word	hw+32
+ 490 00d8 18000000 		.word	hw+24
+ 491 00dc 00000000 		.word	_ZL11value_count
+ 492              		.cfi_endproc
+ 493              	.LFE4790:
+ 495              		.section	.text.startup._GLOBAL__sub_I_hw,"ax",%progbits
+ 496              		.align	1
+ 497              		.p2align 2,,3
+ 498              		.syntax unified
+ 499              		.thumb
+ 500              		.thumb_func
+ 502              	_GLOBAL__sub_I_hw:
+ 503              	.LFB5374:
+ 504              		.loc 1 84 1 is_stmt 1 view -0
+ 505              		.cfi_startproc
+ 506              		@ args = 0, pretend = 0, frame = 0
+ 507              		@ frame_needed = 0, uses_anonymous_args = 0
+ 508              		@ link register save eliminated.
+ 509              	.LBB100:
+ 510              	.LBI100:
+ 511              		.loc 1 84 1 view .LVU149
+ 512              	.LVL33:
+ 513              	.LBB101:
+ 514              	.LBB102:
+ 515              	.LBI102:
   21:../../DaisyExamples/libDaisy//src/daisy_seed.h ****     ~DaisySeed() {}
- 502              		.loc 2 21 5 view .LVU139
- 503              	.LBB104:
- 504              	.LBB105:
- 505              	.LBI105:
- 506              		.file 8 "../../DaisyExamples/libDaisy//src/per/qspi.h"
+ 516              		.loc 2 21 5 view .LVU150
+ARM GAS  /tmp/ccD6FYWN.s 			page 20
+
+
+ 517              	.LBB103:
+ 518              	.LBB104:
+ 519              	.LBI104:
+ 520              		.file 7 "../../DaisyExamples/libDaisy//src/per/qspi.h"
    1:../../DaisyExamples/libDaisy//src/per/qspi.h **** #ifndef DSY_QSPI
    2:../../DaisyExamples/libDaisy//src/per/qspi.h **** #define DSY_QSPI /**< Macro */
    3:../../DaisyExamples/libDaisy//src/per/qspi.h **** 
@@ -1198,9 +1189,6 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   42:../../DaisyExamples/libDaisy//src/per/qspi.h ****          * 
   43:../../DaisyExamples/libDaisy//src/per/qspi.h ****          *  \param GOOD - No errors have been reported.
   44:../../DaisyExamples/libDaisy//src/per/qspi.h ****          *  \param E_HAL_ERROR - HAL code did not return HAL_OK.
-ARM GAS  /tmp/ccEFuv8d.s 			page 21
-
-
   45:../../DaisyExamples/libDaisy//src/per/qspi.h ****          *  \param E_SWITCHING_MODES - An error was encountered while switching QSPI peripheral mod
   46:../../DaisyExamples/libDaisy//src/per/qspi.h ****          *  \param E_INVALID_MODE - QSPI should not be written to while the program is executing fr
   47:../../DaisyExamples/libDaisy//src/per/qspi.h ****          */
@@ -1210,6 +1198,9 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   51:../../DaisyExamples/libDaisy//src/per/qspi.h ****         E_HAL_ERROR,
   52:../../DaisyExamples/libDaisy//src/per/qspi.h ****         E_SWITCHING_MODES,
   53:../../DaisyExamples/libDaisy//src/per/qspi.h ****         E_INVALID_MODE,
+ARM GAS  /tmp/ccD6FYWN.s 			page 21
+
+
   54:../../DaisyExamples/libDaisy//src/per/qspi.h ****     };
   55:../../DaisyExamples/libDaisy//src/per/qspi.h **** 
   56:../../DaisyExamples/libDaisy//src/per/qspi.h ****     /** Configuration structure for interfacing with QSPI Driver */
@@ -1258,9 +1249,6 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   99:../../DaisyExamples/libDaisy//src/per/qspi.h ****         \return Result::OK or Result::ERR
  100:../../DaisyExamples/libDaisy//src/per/qspi.h ****         */
  101:../../DaisyExamples/libDaisy//src/per/qspi.h ****     Result Init(const Config& config);
-ARM GAS  /tmp/ccEFuv8d.s 			page 22
-
-
  102:../../DaisyExamples/libDaisy//src/per/qspi.h **** 
  103:../../DaisyExamples/libDaisy//src/per/qspi.h ****     /** Returns the current config. */
  104:../../DaisyExamples/libDaisy//src/per/qspi.h ****     const Config& GetConfig() const;
@@ -1270,6 +1258,9 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
  108:../../DaisyExamples/libDaisy//src/per/qspi.h ****     /** 
  109:../../DaisyExamples/libDaisy//src/per/qspi.h ****         Deinitializes the peripheral
  110:../../DaisyExamples/libDaisy//src/per/qspi.h ****         This should be called before reinitializing QSPI in a different mode.
+ARM GAS  /tmp/ccD6FYWN.s 			page 22
+
+
  111:../../DaisyExamples/libDaisy//src/per/qspi.h ****         \return Result::OK or Result::ERR
  112:../../DaisyExamples/libDaisy//src/per/qspi.h ****         */
  113:../../DaisyExamples/libDaisy//src/per/qspi.h ****     Result DeInit();
@@ -1318,9 +1309,6 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
  156:../../DaisyExamples/libDaisy//src/per/qspi.h **** 
  157:../../DaisyExamples/libDaisy//src/per/qspi.h ****     /** Returns a pointer to the actual memory used 
  158:../../DaisyExamples/libDaisy//src/per/qspi.h ****      *  The memory at this address is read-only
-ARM GAS  /tmp/ccEFuv8d.s 			page 23
-
-
  159:../../DaisyExamples/libDaisy//src/per/qspi.h ****      *  to write to it use the Write function.
  160:../../DaisyExamples/libDaisy//src/per/qspi.h ****      * 
  161:../../DaisyExamples/libDaisy//src/per/qspi.h ****      *  \param offset returns the pointer starting this 
@@ -1329,67 +1317,70 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
  164:../../DaisyExamples/libDaisy//src/per/qspi.h ****     void* GetData(uint32_t offset = 0);
  165:../../DaisyExamples/libDaisy//src/per/qspi.h **** 
  166:../../DaisyExamples/libDaisy//src/per/qspi.h ****     QSPIHandle() : pimpl_(nullptr) {}
- 507              		.loc 8 166 5 view .LVU140
- 508              	.LBB106:
- 509              	.LBB107:
- 510              		.loc 8 166 20 is_stmt 0 view .LVU141
- 511 0000 0448     		ldr	r0, .L24
- 512 0002 0023     		movs	r3, #0
- 513              	.LBE107:
- 514              	.LBE106:
- 515              	.LBE105:
- 516              	.LBE104:
- 517              	.LBE103:
-  13:run.cpp       **** static int value_count = 0;
- 518              		.loc 1 13 11 discriminator 1 view .LVU142
- 519 0004 044A     		ldr	r2, .L24+4
- 520 0006 0549     		ldr	r1, .L24+8
- 521              	.LBB121:
- 522              	.LBB120:
- 523              	.LBB110:
- 524              	.LBB109:
- 525              	.LBB108:
- 526              		.loc 8 166 20 view .LVU143
- 527 0008 0360     		str	r3, [r0]
- 528              	.LVL33:
- 529              		.loc 8 166 20 view .LVU144
- 530              	.LBE108:
- 531              	.LBE109:
- 532              	.LBE110:
- 533              	.LBB111:
- 534              	.LBI111:
-  95:../../DaisyExamples/libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
- 535              		.loc 6 95 5 is_stmt 1 view .LVU145
- 536              	.LBB112:
- 537              	.LBB113:
-  95:../../DaisyExamples/libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
- 538              		.loc 6 95 21 is_stmt 0 view .LVU146
- 539 000a 4361     		str	r3, [r0, #20]
- 540              	.LVL34:
-  95:../../DaisyExamples/libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
- 541              		.loc 6 95 21 view .LVU147
- 542              	.LBE113:
- 543              	.LBE112:
- 544              	.LBE111:
- 545              	.LBB114:
- 546              	.LBI114:
-  92:../../DaisyExamples/libDaisy//src/per/adc.h ****     ~AdcHandle() {}
- 547              		.loc 5 92 5 is_stmt 1 view .LVU148
-  92:../../DaisyExamples/libDaisy//src/per/adc.h ****     ~AdcHandle() {}
- 548              		.loc 5 92 5 is_stmt 0 view .LVU149
- 549              	.LBE114:
-ARM GAS  /tmp/ccEFuv8d.s 			page 24
+ 521              		.loc 7 166 5 view .LVU151
+ARM GAS  /tmp/ccD6FYWN.s 			page 23
 
 
- 550              	.LBB115:
- 551              	.LBI115:
- 552              		.file 9 "../../DaisyExamples/libDaisy//src/per/dac.h"
+ 522              	.LBB105:
+ 523              	.LBB106:
+ 524              		.loc 7 166 20 is_stmt 0 view .LVU152
+ 525 0000 0448     		ldr	r0, .L22
+ 526 0002 0023     		movs	r3, #0
+ 527              	.LBE106:
+ 528              	.LBE105:
+ 529              	.LBE104:
+ 530              	.LBE103:
+ 531              	.LBE102:
+  13:run.cpp       **** static size_t value_count = 0;
+ 532              		.loc 1 13 11 discriminator 1 view .LVU153
+ 533 0004 044A     		ldr	r2, .L22+4
+ 534 0006 0549     		ldr	r1, .L22+8
+ 535              	.LBB120:
+ 536              	.LBB119:
+ 537              	.LBB109:
+ 538              	.LBB108:
+ 539              	.LBB107:
+ 540              		.loc 7 166 20 view .LVU154
+ 541 0008 0360     		str	r3, [r0]
+ 542              	.LVL34:
+ 543              		.loc 7 166 20 view .LVU155
+ 544              	.LBE107:
+ 545              	.LBE108:
+ 546              	.LBE109:
+ 547              	.LBB110:
+ 548              	.LBI110:
+  95:../../DaisyExamples/libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
+ 549              		.loc 6 95 5 is_stmt 1 view .LVU156
+ 550              	.LBB111:
+ 551              	.LBB112:
+  95:../../DaisyExamples/libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
+ 552              		.loc 6 95 21 is_stmt 0 view .LVU157
+ 553 000a 4361     		str	r3, [r0, #20]
+ 554              	.LVL35:
+  95:../../DaisyExamples/libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
+ 555              		.loc 6 95 21 view .LVU158
+ 556              	.LBE112:
+ 557              	.LBE111:
+ 558              	.LBE110:
+ 559              	.LBB113:
+ 560              	.LBI113:
+  92:../../DaisyExamples/libDaisy//src/per/adc.h ****     ~AdcHandle() {}
+ 561              		.loc 5 92 5 is_stmt 1 view .LVU159
+  92:../../DaisyExamples/libDaisy//src/per/adc.h ****     ~AdcHandle() {}
+ 562              		.loc 5 92 5 is_stmt 0 view .LVU160
+ 563              	.LBE113:
+ 564              	.LBB114:
+ 565              	.LBI114:
+ 566              		.file 8 "../../DaisyExamples/libDaisy//src/per/dac.h"
    1:../../DaisyExamples/libDaisy//src/per/dac.h **** #pragma once
    2:../../DaisyExamples/libDaisy//src/per/dac.h **** #ifndef DSY_DAC_H
    3:../../DaisyExamples/libDaisy//src/per/dac.h **** #define DSY_DAC_H
    4:../../DaisyExamples/libDaisy//src/per/dac.h **** 
    5:../../DaisyExamples/libDaisy//src/per/dac.h **** #include "daisy_core.h"
    6:../../DaisyExamples/libDaisy//src/per/dac.h **** 
+ARM GAS  /tmp/ccD6FYWN.s 			page 24
+
+
    7:../../DaisyExamples/libDaisy//src/per/dac.h **** namespace daisy
    8:../../DaisyExamples/libDaisy//src/per/dac.h **** {
    9:../../DaisyExamples/libDaisy//src/per/dac.h **** /** @brief DAC handle for Built-in DAC Peripheral 
@@ -1438,9 +1429,6 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   52:../../DaisyExamples/libDaisy//src/per/dac.h ****     /** Sets the number of bits per sample transmitted out of the DAC.
   53:../../DaisyExamples/libDaisy//src/per/dac.h ****      ** The output range will be: 0V - VDDA
   54:../../DaisyExamples/libDaisy//src/per/dac.h ****      ** The resolution will be roughly: bitdepth / (VDDA - 0V) 
-ARM GAS  /tmp/ccEFuv8d.s 			page 25
-
-
   55:../../DaisyExamples/libDaisy//src/per/dac.h ****      ***/
   56:../../DaisyExamples/libDaisy//src/per/dac.h ****     enum class BitDepth
   57:../../DaisyExamples/libDaisy//src/per/dac.h ****     {
@@ -1450,6 +1438,9 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   61:../../DaisyExamples/libDaisy//src/per/dac.h **** 
   62:../../DaisyExamples/libDaisy//src/per/dac.h ****     /** Sets whether the DAC output is buffered for higher drive ability. */
   63:../../DaisyExamples/libDaisy//src/per/dac.h ****     enum class BufferState
+ARM GAS  /tmp/ccD6FYWN.s 			page 25
+
+
   64:../../DaisyExamples/libDaisy//src/per/dac.h ****     {
   65:../../DaisyExamples/libDaisy//src/per/dac.h ****         ENABLED,
   66:../../DaisyExamples/libDaisy//src/per/dac.h ****         DISABLED,
@@ -1471,156 +1462,155 @@ ARM GAS  /tmp/ccEFuv8d.s 			page 1
   82:../../DaisyExamples/libDaisy//src/per/dac.h ****     };
   83:../../DaisyExamples/libDaisy//src/per/dac.h **** 
   84:../../DaisyExamples/libDaisy//src/per/dac.h ****     DacHandle() : pimpl_(nullptr) {}
- 553              		.loc 9 84 5 is_stmt 1 view .LVU150
- 554              	.LBB116:
- 555              	.LBB117:
- 556              		.loc 9 84 19 is_stmt 0 view .LVU151
- 557 000c 0362     		str	r3, [r0, #32]
- 558              	.LVL35:
- 559              		.loc 9 84 19 view .LVU152
- 560              	.LBE117:
- 561              	.LBE116:
- 562              	.LBE115:
- 563              	.LBB118:
- 564              	.LBI118:
+ 567              		.loc 8 84 5 is_stmt 1 view .LVU161
+ 568              	.LBB115:
+ 569              	.LBB116:
+ 570              		.loc 8 84 19 is_stmt 0 view .LVU162
+ 571 000c 0362     		str	r3, [r0, #32]
+ 572              	.LVL36:
+ 573              		.loc 8 84 19 view .LVU163
+ 574              	.LBE116:
+ 575              	.LBE115:
+ 576              	.LBE114:
+ 577              	.LBB117:
+ 578              	.LBI117:
   40:../../DaisyExamples/libDaisy//src/hid/usb.h **** 
- 565              		.loc 4 40 5 is_stmt 1 view .LVU153
+ 579              		.loc 4 40 5 is_stmt 1 view .LVU164
   40:../../DaisyExamples/libDaisy//src/hid/usb.h **** 
- 566              		.loc 4 40 5 is_stmt 0 view .LVU154
- 567              	.LBE118:
- 568              	.LBB119:
- 569              	.LBI119:
+ 580              		.loc 4 40 5 is_stmt 0 view .LVU165
+ 581              	.LBE117:
+ 582              	.LBB118:
+ 583              	.LBI118:
   77:../../DaisyExamples/libDaisy//src/sys/system.h ****     ~System() {}
- 570              		.loc 3 77 5 is_stmt 1 view .LVU155
+ 584              		.loc 3 77 5 is_stmt 1 view .LVU166
   77:../../DaisyExamples/libDaisy//src/sys/system.h ****     ~System() {}
- 571              		.loc 3 77 5 is_stmt 0 view .LVU156
- 572              	.LBE119:
- 573              	.LBE120:
- 574              	.LBE121:
-  13:run.cpp       **** static int value_count = 0;
-ARM GAS  /tmp/ccEFuv8d.s 			page 26
+ 585              		.loc 3 77 5 is_stmt 0 view .LVU167
+ 586              	.LBE118:
+ 587              	.LBE119:
+ 588              	.LBE120:
+  13:run.cpp       **** static size_t value_count = 0;
+ 589              		.loc 1 13 11 discriminator 1 view .LVU168
+ 590 000e FFF7FEBF 		b	__aeabi_atexit
+ 591              	.LVL37:
+ 592              	.L23:
+ 593 0012 00BF     		.align	2
+ 594              	.L22:
+ 595 0014 00000000 		.word	hw
+ 596 0018 00000000 		.word	__dso_handle
+ 597 001c 00000000 		.word	_ZN5daisy9DaisySeedD1Ev
+ARM GAS  /tmp/ccD6FYWN.s 			page 26
 
 
- 575              		.loc 1 13 11 discriminator 1 view .LVU157
- 576 000e FFF7FEBF 		b	__aeabi_atexit
- 577              	.LVL36:
- 578              	.L25:
- 579 0012 00BF     		.align	2
- 580              	.L24:
- 581 0014 00000000 		.word	hw
- 582 0018 00000000 		.word	__dso_handle
- 583 001c 00000000 		.word	_ZN5daisy9DaisySeedD1Ev
- 584              	.LBE102:
- 585              	.LBE101:
- 586              		.cfi_endproc
- 587              	.LFE5376:
- 589              		.section	.init_array,"aw",%init_array
- 590              		.align	2
- 591 0000 00000000 		.word	_GLOBAL__sub_I_hw(target1)
- 592              		.section	.bss._ZL11value_count,"aw",%nobits
- 593              		.align	2
- 596              	_ZL11value_count:
- 597 0000 00000000 		.space	4
- 598              		.global	hw
- 599              		.section	.bss.hw,"aw",%nobits
- 600              		.align	2
- 603              	hw:
- 604 0000 00000000 		.space	60
- 604      00000000 
- 604      00000000 
- 604      00000000 
- 604      00000000 
- 605              		.text
- 606              	.Letext0:
- 607              		.file 10 "/usr/arm-none-eabi/include/machine/_default_types.h"
- 608              		.file 11 "/usr/arm-none-eabi/include/sys/_stdint.h"
- 609              		.file 12 "/usr/arm-none-eabi/include/stdint.h"
- 610              		.file 13 "/usr/lib/gcc/arm-none-eabi/13.2.0/include/stddef.h"
- 611              		.file 14 "/usr/arm-none-eabi/include/c++/13.2.0/cmath"
- 612              		.file 15 "/usr/arm-none-eabi/include/c++/13.2.0/bits/std_abs.h"
- 613              		.file 16 "/usr/arm-none-eabi/include/c++/13.2.0/type_traits"
- 614              		.file 17 "/usr/arm-none-eabi/include/c++/13.2.0/cstdlib"
- 615              		.file 18 "/usr/arm-none-eabi/include/c++/13.2.0/cstdint"
- 616              		.file 19 "/usr/arm-none-eabi/include/c++/13.2.0/bits/stl_pair.h"
- 617              		.file 20 "/usr/arm-none-eabi/include/c++/13.2.0/debug/debug.h"
- 618              		.file 21 "/usr/arm-none-eabi/include/c++/13.2.0/cstdarg"
- 619              		.file 22 "/usr/arm-none-eabi/include/c++/13.2.0/cstdio"
- 620              		.file 23 "/usr/arm-none-eabi/include/c++/13.2.0/cstring"
- 621              		.file 24 "/usr/arm-none-eabi/include/c++/13.2.0/cwchar"
- 622              		.file 25 "/usr/arm-none-eabi/include/c++/13.2.0/clocale"
- 623              		.file 26 "/usr/arm-none-eabi/include/c++/13.2.0/bits/charconv.h"
- 624              		.file 27 "/usr/arm-none-eabi/include/c++/13.2.0/bits/predefined_ops.h"
- 625              		.file 28 "/usr/arm-none-eabi/include/sys/_types.h"
- 626              		.file 29 "/usr/arm-none-eabi/include/sys/reent.h"
- 627              		.file 30 "/usr/arm-none-eabi/include/sys/lock.h"
- 628              		.file 31 "/usr/arm-none-eabi/include/math.h"
- 629              		.file 32 "/usr/arm-none-eabi/include/stdlib.h"
- 630              		.file 33 "/usr/arm-none-eabi/include/c++/13.2.0/math.h"
- 631              		.file 34 "/usr/arm-none-eabi/include/c++/13.2.0/arm-none-eabi/thumb/v7e-m+dp/hard/bits/c++config.h
- 632              		.file 35 "/usr/arm-none-eabi/include/c++/13.2.0/pstl/execution_defs.h"
-ARM GAS  /tmp/ccEFuv8d.s 			page 27
+ 598              	.LBE101:
+ 599              	.LBE100:
+ 600              		.cfi_endproc
+ 601              	.LFE5374:
+ 603              		.section	.init_array,"aw",%init_array
+ 604              		.align	2
+ 605 0000 00000000 		.word	_GLOBAL__sub_I_hw(target1)
+ 606              		.section	.bss._ZL11value_count,"aw",%nobits
+ 607              		.align	2
+ 610              	_ZL11value_count:
+ 611 0000 00000000 		.space	4
+ 612              		.global	hw
+ 613              		.section	.bss.hw,"aw",%nobits
+ 614              		.align	2
+ 617              	hw:
+ 618 0000 00000000 		.space	60
+ 618      00000000 
+ 618      00000000 
+ 618      00000000 
+ 618      00000000 
+ 619              		.text
+ 620              	.Letext0:
+ 621              		.file 9 "/usr/arm-none-eabi/include/machine/_default_types.h"
+ 622              		.file 10 "/usr/arm-none-eabi/include/sys/_stdint.h"
+ 623              		.file 11 "/usr/arm-none-eabi/include/stdint.h"
+ 624              		.file 12 "/usr/lib/gcc/arm-none-eabi/13.2.0/include/stddef.h"
+ 625              		.file 13 "/usr/arm-none-eabi/include/c++/13.2.0/cmath"
+ 626              		.file 14 "/usr/arm-none-eabi/include/c++/13.2.0/bits/std_abs.h"
+ 627              		.file 15 "/usr/arm-none-eabi/include/c++/13.2.0/type_traits"
+ 628              		.file 16 "/usr/arm-none-eabi/include/c++/13.2.0/cstdlib"
+ 629              		.file 17 "/usr/arm-none-eabi/include/c++/13.2.0/cstdint"
+ 630              		.file 18 "/usr/arm-none-eabi/include/c++/13.2.0/bits/stl_pair.h"
+ 631              		.file 19 "/usr/arm-none-eabi/include/c++/13.2.0/debug/debug.h"
+ 632              		.file 20 "/usr/arm-none-eabi/include/c++/13.2.0/cstdarg"
+ 633              		.file 21 "/usr/arm-none-eabi/include/c++/13.2.0/cstdio"
+ 634              		.file 22 "/usr/arm-none-eabi/include/c++/13.2.0/cstring"
+ 635              		.file 23 "/usr/arm-none-eabi/include/c++/13.2.0/cwchar"
+ 636              		.file 24 "/usr/arm-none-eabi/include/c++/13.2.0/clocale"
+ 637              		.file 25 "/usr/arm-none-eabi/include/c++/13.2.0/bits/charconv.h"
+ 638              		.file 26 "/usr/arm-none-eabi/include/c++/13.2.0/bits/predefined_ops.h"
+ 639              		.file 27 "/usr/arm-none-eabi/include/sys/_types.h"
+ 640              		.file 28 "/usr/arm-none-eabi/include/sys/reent.h"
+ 641              		.file 29 "/usr/arm-none-eabi/include/sys/lock.h"
+ 642              		.file 30 "/usr/arm-none-eabi/include/math.h"
+ 643              		.file 31 "/usr/arm-none-eabi/include/stdlib.h"
+ 644              		.file 32 "/usr/arm-none-eabi/include/c++/13.2.0/math.h"
+ 645              		.file 33 "/usr/arm-none-eabi/include/c++/13.2.0/arm-none-eabi/thumb/v7e-m+dp/hard/bits/c++config.h
+ 646              		.file 34 "/usr/arm-none-eabi/include/c++/13.2.0/pstl/execution_defs.h"
+ 647              		.file 35 "/usr/arm-none-eabi/include/c++/13.2.0/stdlib.h"
+ 648              		.file 36 "../../DaisyExamples/libDaisy//src/daisy_core.h"
+ 649              		.file 37 "../../DaisyExamples/libDaisy//src/per/sai.h"
+ 650              		.file 38 "../../DaisyExamples/libDaisy//src/hid/logger_impl.h"
+ 651              		.file 39 "../../DaisyExamples/libDaisy//src/util/wav_format.h"
+ 652              		.file 40 "../../DaisyExamples/libDaisy//src/dev/max11300.h"
+ 653              		.file 41 "../../DaisyExamples/libDaisy//src/hid/logger.h"
+ 654              		.file 42 "../../DaisyExamples/libDaisy//src/per/gpio.h"
+ 655              		.file 43 "../../DaisyExamples/libDaisy//src/dev/sdram.h"
+ARM GAS  /tmp/ccD6FYWN.s 			page 27
 
 
- 633              		.file 36 "/usr/arm-none-eabi/include/c++/13.2.0/stdlib.h"
- 634              		.file 37 "../../DaisyExamples/libDaisy//src/daisy_core.h"
- 635              		.file 38 "../../DaisyExamples/libDaisy//src/per/sai.h"
- 636              		.file 39 "../../DaisyExamples/libDaisy//src/hid/logger_impl.h"
- 637              		.file 40 "../../DaisyExamples/libDaisy//src/util/wav_format.h"
- 638              		.file 41 "../../DaisyExamples/libDaisy//src/dev/max11300.h"
- 639              		.file 42 "../../DaisyExamples/libDaisy//src/hid/logger.h"
- 640              		.file 43 "../../DaisyExamples/libDaisy//src/per/gpio.h"
- 641              		.file 44 "../../DaisyExamples/libDaisy//src/dev/sdram.h"
- 642              		.file 45 "/usr/lib/gcc/arm-none-eabi/13.2.0/include/stdarg.h"
- 643              		.file 46 "/usr/arm-none-eabi/include/stdio.h"
- 644              		.file 47 "/usr/arm-none-eabi/include/string.h"
- 645              		.file 48 "../../DaisyExamples/DaisySP//Source/Control/adenv.h"
- 646              		.file 49 "../../DaisyExamples/DaisySP//Source/Utility/dsp.h"
- 647              		.file 50 "/usr/arm-none-eabi/include/wchar.h"
- 648              		.file 51 "/usr/arm-none-eabi/include/locale.h"
- 649              		.file 52 "../../DaisyExamples/libDaisy//src/dev/sr_595.h"
- 650              		.file 53 "<built-in>"
-ARM GAS  /tmp/ccEFuv8d.s 			page 28
+ 656              		.file 44 "/usr/lib/gcc/arm-none-eabi/13.2.0/include/stdarg.h"
+ 657              		.file 45 "/usr/arm-none-eabi/include/stdio.h"
+ 658              		.file 46 "/usr/arm-none-eabi/include/string.h"
+ 659              		.file 47 "../../DaisyExamples/DaisySP//Source/Control/adenv.h"
+ 660              		.file 48 "../../DaisyExamples/DaisySP//Source/Utility/dsp.h"
+ 661              		.file 49 "/usr/arm-none-eabi/include/wchar.h"
+ 662              		.file 50 "/usr/arm-none-eabi/include/locale.h"
+ 663              		.file 51 "../../DaisyExamples/libDaisy//src/dev/sr_595.h"
+ 664              		.file 52 "<built-in>"
+ARM GAS  /tmp/ccD6FYWN.s 			page 28
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 run.cpp
-     /tmp/ccEFuv8d.s:20     .text._ZN5daisy9DaisySeedD2Ev:00000000 $t
-     /tmp/ccEFuv8d.s:27     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD2Ev
-     /tmp/ccEFuv8d.s:27     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD1Ev
-     /tmp/ccEFuv8d.s:68     .text._Z11store_valuet:00000000 $t
-     /tmp/ccEFuv8d.s:75     .text._Z11store_valuet:00000000 _Z11store_valuet
-     /tmp/ccEFuv8d.s:105    .text._Z11store_valuet:00000014 $d
-     /tmp/ccEFuv8d.s:596    .bss._ZL11value_count:00000000 _ZL11value_count
-     /tmp/ccEFuv8d.s:110    .text._Z16get_avg_from_ramv:00000000 $t
-     /tmp/ccEFuv8d.s:117    .text._Z16get_avg_from_ramv:00000000 _Z16get_avg_from_ramv
-     /tmp/ccEFuv8d.s:174    .text._Z19collect_temperaturev:00000000 $t
-     /tmp/ccEFuv8d.s:181    .text._Z19collect_temperaturev:00000000 _Z19collect_temperaturev
-     /tmp/ccEFuv8d.s:262    .text._Z19collect_temperaturev:0000002c $d
-     /tmp/ccEFuv8d.s:603    .bss.hw:00000000 hw
-     /tmp/ccEFuv8d.s:268    .rodata.main.str1.4:00000000 $d
-     /tmp/ccEFuv8d.s:278    .text.startup.main:00000000 $t
-     /tmp/ccEFuv8d.s:285    .text.startup.main:00000000 main
-     /tmp/ccEFuv8d.s:471    .text.startup.main:000000a4 $d
-     /tmp/ccEFuv8d.s:482    .text.startup._GLOBAL__sub_I_hw:00000000 $t
-     /tmp/ccEFuv8d.s:488    .text.startup._GLOBAL__sub_I_hw:00000000 _GLOBAL__sub_I_hw
-     /tmp/ccEFuv8d.s:581    .text.startup._GLOBAL__sub_I_hw:00000014 $d
-     /tmp/ccEFuv8d.s:590    .init_array:00000000 $d
-     /tmp/ccEFuv8d.s:593    .bss._ZL11value_count:00000000 $d
-     /tmp/ccEFuv8d.s:600    .bss.hw:00000000 $d
+     /tmp/ccD6FYWN.s:20     .text._ZN5daisy9DaisySeedD2Ev:00000000 $t
+     /tmp/ccD6FYWN.s:27     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD2Ev
+     /tmp/ccD6FYWN.s:27     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD1Ev
+     /tmp/ccD6FYWN.s:68     .text._Z11store_valuet:00000000 $t
+     /tmp/ccD6FYWN.s:75     .text._Z11store_valuet:00000000 _Z11store_valuet
+     /tmp/ccD6FYWN.s:105    .text._Z11store_valuet:00000014 $d
+     /tmp/ccD6FYWN.s:610    .bss._ZL11value_count:00000000 _ZL11value_count
+     /tmp/ccD6FYWN.s:110    .rodata._Z27calculate_voltages_and_tempv.str1.4:00000000 $d
+     /tmp/ccD6FYWN.s:114    .text._Z27calculate_voltages_and_tempv:00000000 $t
+     /tmp/ccD6FYWN.s:121    .text._Z27calculate_voltages_and_tempv:00000000 _Z27calculate_voltages_and_tempv
+     /tmp/ccD6FYWN.s:252    .text._Z27calculate_voltages_and_tempv:00000064 $d
+     /tmp/ccD6FYWN.s:262    .text.startup.main:00000000 $t
+     /tmp/ccD6FYWN.s:269    .text.startup.main:00000000 main
+     /tmp/ccD6FYWN.s:488    .text.startup.main:000000d0 $d
+     /tmp/ccD6FYWN.s:617    .bss.hw:00000000 hw
+     /tmp/ccD6FYWN.s:496    .text.startup._GLOBAL__sub_I_hw:00000000 $t
+     /tmp/ccD6FYWN.s:502    .text.startup._GLOBAL__sub_I_hw:00000000 _GLOBAL__sub_I_hw
+     /tmp/ccD6FYWN.s:595    .text.startup._GLOBAL__sub_I_hw:00000014 $d
+     /tmp/ccD6FYWN.s:604    .init_array:00000000 $d
+     /tmp/ccD6FYWN.s:607    .bss._ZL11value_count:00000000 $d
+     /tmp/ccD6FYWN.s:614    .bss.hw:00000000 $d
                            .group:00000000 _ZN5daisy9DaisySeedD5Ev
 
 UNDEFINED SYMBOLS
-_ZN5daisy6System5DelayEm
-_ZNK5daisy9AdcHandle3GetEh
+_ZN5daisy6LoggerILNS_17LoggerDestinationE1EE9PrintLineEPKcz
 _ZN5daisy9DaisySeed4InitEb
 _ZN5daisy9DacHandle4InitERKNS0_6ConfigE
 _ZN5daisy6LoggerILNS_17LoggerDestinationE1EE8StartLogEb
-_ZN5daisy6LoggerILNS_17LoggerDestinationE1EE9PrintLineEPKcz
+_ZN5daisy9DaisySeed6SetLedEb
 _ZN5daisy9DaisySeed6GetPinEh
-_ZN5daisy3Led4InitE12dsy_gpio_pinbf
 _ZN5daisy16AdcChannelConfig10InitSingleE12dsy_gpio_pin
 _ZN5daisy9AdcHandle4InitEPNS_16AdcChannelConfigEjNS0_12OverSamplingE
 _ZN5daisy9AdcHandle5StartEv
+_ZN5daisy6System7DelayUsEm
 _ZN5daisy9DacHandle10WriteValueENS0_7ChannelEt
+_ZNK5daisy9AdcHandle3GetEh
+_ZN5daisy6System5DelayEm
 __aeabi_atexit
 __dso_handle

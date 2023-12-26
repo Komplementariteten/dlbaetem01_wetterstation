@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass{report}
 
 % Packages
 \usepackage[utf8]{inputenc}
@@ -6,6 +6,7 @@
 \usepackage{enumitem}
 \usepackage[siunitx, european]{circuitikz}
 \usepackage{hyperref}
+\usepackage{gensymb}
 
 % Setup
 \graphicspath{{img/}}
@@ -22,10 +23,8 @@ Dokumentation der Entwicklung und Auswertung einer Wetterstation basierend auf d
 \pagebreak
 \tableofcontents
 \pagebreak
-\section{Einleitung}
-\label{sec:title}
-\subsection{Aufgabenstellung \cite{aufgabenstellung}}
-\label{ssec:subtitle}
+\chapter{Einleitung}
+\section{Aufgabenstellung}
 Du möchtest eine eigene Wetterstation bauen. Hierzu nutzt du einen Einplatinenrechner (z.B. Arduino) sowie zugehörige Sensoren.
 \begin{enumerate}
 	\item Lege eine Schaltung zur Erfassung der beiden Messgrößen Temperatur und Luftfeuchtigkeit aus und setze diese als Hardware um.
@@ -61,12 +60,10 @@ $c_{p,R}$ ist die spezifische Wärmekapazität und hängt vom Material des Wider
 Die beiden Gleichungen können zu einer DGL 1. Ordnung für $\vartheta_r\left(t\right)$ kombiniert werden.
 
 \end{enumerate}
-
 \section{Hardware}
 \subsection{Einplatinenrechner}
-
-\begin{figure}
-\includegraphics[width=0.75\linewidth]{daisy_seed_pinout}
+\begin{figure} [h!]
+\includegraphics[width=0.75\textwidth]{daisy_seed_pinout}
 \caption{daisy seed - Pinout}
 \label{fig:daisy-ssed-pinout}
 \end{figure}
@@ -84,39 +81,58 @@ Digital Analog Konverter & 2 12-bit Digital / Analog Wandler mit bis zu 1 MHz \\
 \hline
 FPU & FPU mit doppelter Praezision \\
 \hline
+RAM & 64 MB SDRAM um Messwerte zu speichern ($\approx$ 2 Mega-Samples )\\
+\hline
 \end{tabular}
 \end{center}
 
-\begin{circuitikz}
-\ctikzset{multipoles/external pins thickness=8}
-\draw (0, 0) node[dipchip, 
-num pins=10,
-fill=orange,
-scale=2,
-hide numbers, 
-external pins width=0.2,
-%external pins thickness=1.5,
-%8 external pad fraction=4 
-](C){SEED};
-\node [right, font=\tiny]
-at (C.bpin 1) {3v3};
-\node [right, font=\tiny]
-at (C.bpin 5) {AGND};
-\node [right, font=\tiny]
-at (C.bpin 3) {ADC6};
-\node [left, font=\tiny]
-at (C.bpin 6) {ADC6};
-\node [ocirc](TW) at (0,4) {};
-\draw (TW.south) -- ++(0,-1) node[right, font=\tiny]{usbc} -- (C.north);
-\draw (C.pin 1) -- ++(-2, 0) to[sR, l=$81 123$, *-*] 
-++(0,-2.24) -- (C.pin 3) -- ++(-2,0) 
- to[R=2<\kohm>, *-*] 
-++(0, -2.24) -- (C.pin 5) -- ++(-0.5, 0)-- ++(0,-2) node[ground]{};
-\draw (C.pin 6);
-
-\end{circuitikz}
 \subsection{Sensoren}
+\subsubsection{Temperatur}
+Zur Termperaturmessung wurde ein Termistor gewahlet. Genauer der KTY 81 122m mit einem Temperatur Koeffizenten $T_C$ von 0.79 und einem Widerstand bei $T_a = 25 \degree C$ zwischem 1000 und 1020 $\Omega$ ausweist, laut Hersteller Datenblatt. Ausgelegt ist der Sensor fuer einen Temperaturbereich zwischen -55 \degree C und +150 \degree C.
+\subsubsection{Luftfeuchte}
 
+\subsection{Mess-Schaltung}
+\begin{circuitikz}
+	\ctikzset{multipoles/external pins thickness=8}
+	\draw (0, 0) node[dipchip, 
+	num pins=10,
+	fill=orange,
+	scale=2,
+	hide numbers, 
+	draw only pins={1, 3, 5, 6, 8, 10},
+	external pins width=0.2,
+	%external pins thickness=1.5,
+	%8 external pad fraction=4 
+	](C){seed};
+	\node [right, font=\tiny]
+	at (C.bpin 1) {3v3};
+	\node [right, font=\tiny]
+	at (C.bpin 5) {AGND};
+	\node [right, font=\tiny]
+	at (C.bpin 3) {ADC6};
+	\node [left, font=\tiny]
+	at (C.bpin 8) {ADC5};
+	\node [left, font=\tiny]
+		at (C.bpin 6) {DGND};
+	\node [left, font=\tiny]
+	at (C.bpin 10) {DAC1};
+	\node [ocirc](TW) at (0,4) {};
+	\draw (TW.south) -- ++(0,-1) node[right, font=\tiny]{usbc} -- (C.north);
+	\draw (C.pin 1) -- ++(-2, 0) to[sR, l=$KTY 81$, *-*] 
+	++(0,-2.24) -- (C.pin 3) -- ++(-2,0) 
+	to[R=2<\kohm>, *-*] 
+	++(0, -2.24) -- (C.pin 5) -- ++(-0.5, 0)-- ++(0,-2) node[ground]{};
+	\draw (C.pin 10) -- ++(2,0)  to[sC, l=$HS1101$, *-*] 
+	++(0, -2.24) -- (C.pin 8) -- ++(2, 0) to[C, *-*] ++(0, -4)  -*++(-6.98,0);
+	\draw (C.pin 6) -- ++(1, 0) -- ++(0,-1.76);
+\end{circuitikz}
+\subsubsection{Wechselspannungs Generierung}
+Um die unbekannte Kapazitaet des Luftfeuchtesensors zu messen muss eine Wechselspannung geneiert werden. Dazu wird einer der Digital Analog Generierungs Kanaele des daisy seeds verwendet und eine Rechtecksignal mit $\hat u\approx1V$ und $T\approx100us$. Diese Werte Orientieren sich an den Referenzwerten des Handbuchs.
+\begin{figure}[h!]
+\includegraphics[width=1\linewidth]{DC_Signal}
+\caption{Wechselspannung}
+\label{fig:dc-signal}
+\end{figure}
 % References
 \begin{thebibliography}{9}
 \bibitem{aufgabenstellung}

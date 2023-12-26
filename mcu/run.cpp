@@ -11,8 +11,11 @@ using namespace daisy;
 using namespace daisysp;
 
 DaisySeed hw;
-static int value_count = 0;
-
+static size_t value_count = 0;
+// 16bit adc
+const float_t ADC_MAX = 0xFFFF;
+const float_t VEE = 3.3;
+const float_t R_1 = 1000;
 
 void store_value(uint16_t value){
 	int32_t *ram = (int32_t *)0xC0000000;
@@ -21,30 +24,21 @@ void store_value(uint16_t value){
 	value_count++;
 }
 
-void get_avg_from_ram(){
+void calculate_voltages_and_temp(){
 	int32_t *ram = (int32_t *)0xC0000000;
-	uint64_t sum = 0.0;
-	for (size_t i = 0; i < NUMBER_OF_VALUES; i++)
+	for (size_t i = 1; i < value_count; i++)
 	{
 		uint16_t result;
 		unsigned char const *p = (unsigned char const *)((sizeof(uint16_t) * i) + ram);
 		memcpy(&result, p, sizeof(uint16_t));
-		sum += result;
-		System::Delay(1);
+		// Calculate Voltage
+		float_t v =  VEE * (result / ADC_MAX);
+		// Calculate Resistance
+		float_t t = ((VEE - v) * R_1) / v;
+		hw.PrintLine("%7d;%2.6f;%4.6f", result, v, t);
 	}
-	uint16_t avg = sum / NUMBER_OF_VALUES;
-	System::Delay(1);
+	value_count = 0;
 }
-
-
-void collect_temperature() {
-		for (size_t i = 0; i < NUMBER_OF_VALUES; i++)
-		{
-			store_value(hw.adc.Get(0));
-			System::Delay(1);
-		}
-}
-
 
 int main(void)
 {
@@ -60,27 +54,31 @@ int main(void)
 
 	bool dac_is_high = false;
 
-    // hw.PrintLine("Verify CRT floating point format: %.3f.", 123.0f);
-	hw.StartLog();
-	hw.PrintLine("Welcom, lets start");
-	Led led1;
-	led1.Init(hw.GetPin(28), false);
+	// Wait for Serial connection
+	hw.StartLog(true);
+	hw.SetLed(true);
 	AdcChannelConfig adcConfig;
 	adcConfig.InitSingle(hw.GetPin(21));
 
 	hw.adc.Init(&adcConfig, 1);
 	hw.adc.Start();
-	hw.PrintLine("Adc Started, entering Loop");
-	while(1) {	
-		System::Delay(10);
-		hw.PrintLine("ADC 1: %d", hw.adc.Get(0));
+	while(value_count < NUMBER_OF_VALUES) {	
+		System::DelayUs(48);
 		if(dac_is_high){
 			hw.dac.WriteValue(DacHandle::Channel::ONE, 0b0); 
 			dac_is_high = false;
 		}
 		else {
-			hw.dac.WriteValue(DacHandle::Channel::ONE, 0b111111111111);
+			// On rising Edge
+			store_value(hw.adc.Get(0));
+			// 4096 ~ 3.3V => 1284 ~ 1V
+			hw.dac.WriteValue(DacHandle::Channel::ONE, 1284);
 			dac_is_high = true;
 		}
 	}
+	// 
+	System::Delay(1000);
+	// done turn of the LED
+	hw.SetLed(false);
+	calculate_voltages_and_temp();	
 }

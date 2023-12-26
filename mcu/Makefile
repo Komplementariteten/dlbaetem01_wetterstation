@@ -4,6 +4,9 @@ TARGET = run
 # Sources
 CPP_SOURCES = run.cpp
 
+# Custom Flags
+LDFLAGS = -u _printf_float
+ 
 # Library Locations
 LIBDAISY_DIR = ../../DaisyExamples/libDaisy/
 DAISYSP_DIR = ../../DaisyExamples/DaisySP/
