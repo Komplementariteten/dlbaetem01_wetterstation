@@ -1,5 +1,7 @@
 mod input_reader;
 mod plotter;
+mod contracts;
+mod serializer;
 
 use std::str;
 use std::io::{Read, Write};
@@ -48,6 +50,7 @@ fn main() {
     let result2 = reader.adc_counts(2);
     let result3 = reader.adc_counts(3);
     plot(result1, result2, result3).unwrap();
+    reader.serialize();
 
     let mut out = Command::new("/usr/bin/xdg-open").arg("./plot.png").spawn().expect("can't open image");
     out.wait().expect("program not exited");

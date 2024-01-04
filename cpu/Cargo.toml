@@ -9,4 +9,8 @@ edition = "2021"
 clap = { version = "4.4.11", features = ["derive"] }
 serialport = "4.3.0"
 plotters = "0.3.5"
+hdf5-sys = { version = "0.8.1", features = ["static", "hdf5-src"] }
+hdf5 = {version = "0.8.1"}
+chrono = "0.4.31"
+ndarray = "0.15.6"
 # gtk = { package = "gtk4", version = "0.6"}
