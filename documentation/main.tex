@@ -7,6 +7,7 @@
 \usepackage[siunitx, european]{circuitikz}
 \usepackage{hyperref}
 \usepackage{gensymb}
+\usepackage{listings}
 
 % Setup
 \graphicspath{{img/}}
@@ -120,7 +121,7 @@ Zur Termperaturmessung wurde ein Termistor gewahlet. Genauer der KTY 81 122m mit
 	\draw (TW.south) -- ++(0,-1) node[right, font=\tiny]{usbc} -- (C.north);
 	\draw (C.pin 1) -- ++(-2, 0) to[sR, l=$KTY 81$, *-*] 
 	++(0,-2.24) -- (C.pin 3) -- ++(-2,0) 
-	to[R=2<\kohm>, *-*] 
+	to[R=1<\kohm>, *-*] 
 	++(0, -2.24) -- (C.pin 5) -- ++(-0.5, 0)-- ++(0,-2) node[ground]{};
 	\draw (C.pin 10) -- ++(2,0)  to[sC, l=$HS1101$, *-*] 
 	++(0, -2.24) -- (C.pin 8) -- ++(2, 0) to[C, *-*] ++(0, -4)  -*++(-6.98,0);
@@ -133,6 +134,23 @@ Um die unbekannte Kapazitaet des Luftfeuchtesensors zu messen muss eine Wechsels
 \caption{Wechselspannung}
 \label{fig:dc-signal}
 \end{figure}
+\section{Software}
+Alle diese Aufgabe betreffender Quellcode kan unter \url{https://github.com/Komplementariteten/dlbaetem01_wetterstation} eingesehen sehen werden. Das betrifft auch, in dem Bericht enthaltene Quellen.
+\subsection{libDaisy}
+libDaisy is a c++ api, provided by the daisy seed manufacturer Electro Smith to support common task, and provide a Unix Makefile and Visual Studio Code based Project Template. In the here used implementation a fork (\url{https://github.com/Komplementariteten/DaisyExamples}) of the related Examples repository is used.
+
+\appendix
+\chapter{Quell-Code}
+\section{mcu}
+\lstinputlisting[language=C++,basicstyle=\footnotesize\ttfamily, keywordstyle=\bfseries\color{green!40!black},
+commentstyle=\itshape\color{purple!40!black},
+identifierstyle=\color{blue},
+stringstyle=\color{orange}]{../mcu/run.cpp}
+\section{cpu}
+\lstinputlisting[language=C,basicstyle=\footnotesize\ttfamily, keywordstyle=\bfseries\color{green!40!black},
+commentstyle=\itshape\color{purple!40!black},
+identifierstyle=\color{blue},
+stringstyle=\color{orange}]{../cpu/src/main.rs}
 % References
 \begin{thebibliography}{9}
 \bibitem{aufgabenstellung}
