@@ -11,6 +11,7 @@
                 "/home/me/Workspace/Github/dlbaetem01_wetterstation/mcu/src",
                 "/home/me/Workspace/Github/dlbaetem01_wetterstation/DaisyExamples/libDaisy/src",
                 "/home/me/Workspace/Github/dlbaetem01_wetterstation/DaisyExamples/libDaisy/Middlewares",
+                "/home/me/Workspace/Github/dlbaetem01_wetterstation/DaisyExamples/libDaisy/Drivers",
                 ""
             ],
             "browse": {
@@ -19,6 +20,7 @@
                     "/home/me/Workspace/Github/dlbaetem01_wetterstation/mcu/src",
                     "/home/me/Workspace/Github/dlbaetem01_wetterstation/DaisyExamples/libDaisy/src",
                     "/home/me/Workspace/Github/dlbaetem01_wetterstation/DaisyExamples/libDaisy/Middlewares",
+                    "/home/me/Workspace/Github/dlbaetem01_wetterstation/DaisyExamples/libDaisy/Drivers",
                     ""
                 ]
             },

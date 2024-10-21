@@ -7,3 +7,6 @@
 [submodule "DaisyExamples"]
 	path = DaisyExamples
 	url = git@github.com:electro-smith/DaisyExamples.git
+[submodule "mcu/DaisyExamples"]
+	path = mcu/DaisyExamples
+	url = git@github.com:electro-smith/DaisyExamples.git
