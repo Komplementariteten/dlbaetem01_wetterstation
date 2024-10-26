@@ -77,11 +77,6 @@ int main(void)
     dac_cfg.mode       = DacHandle::Mode::POLLING;
     dac_cfg.chn        = DacHandle::Channel::ONE;
     hw.dac.Init(dac_cfg);
-	while (1)
-	{
-		/* code */
-	}
-	
 
 	AdcChannelConfig adc_config[3];
 	adc_config[0].InitSingle(seed::A6);
