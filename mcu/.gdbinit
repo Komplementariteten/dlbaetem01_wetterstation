@@ -1,0 +1,10 @@
+cd cmake-build-release-arm
+target extended-remote /dev/ttyACM0
+monitor tpwr disable
+shell sleep 2
+monitor tpwr enable
+monitor swd_scan
+file wetterstation
+attach 1
+load
+

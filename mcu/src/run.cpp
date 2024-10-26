@@ -1,8 +1,7 @@
-#include "daisy_seed.h"
 #include <string>
 #include <array>
 #include <math.h>
-
+#include "daisy_seed.h"
 #define NUMBER_OF_VALUES 550
 #define SIN_POINTS 512
 #define TEST_MEMORY_SIZE (NUMBER_OF_VALUES * 16 * 3)
@@ -45,7 +44,7 @@ void store_value(uint16_t u1, uint16_t u2, uint16_t u3){
 }
 
 uint16_t read_value(size_t ) {
-
+	return 0;
 }
 
 void calculate_voltages_and_temp(){

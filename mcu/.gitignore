@@ -5,4 +5,4 @@
 .vscode/ipch
 build/
 DaisyExamples/
-cmake-build-debug-arm/
+cmake-build-*/
