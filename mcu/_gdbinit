@@ -5,6 +5,7 @@ shell sleep 2
 monitor tpwr enable
 monitor swd_scan
 file wetterstation
+break main
 attach 1
 load
-
+compare-sections

@@ -12,6 +12,6 @@ set(CMAKE_C_STANDARD 11)
 enable_language(C CXX)
 
 add_executable(${NAME}
-        src/run.cpp)
+        src/wetterstation.cpp)
 
 target_link_libraries(${NAME} libdaisy)
