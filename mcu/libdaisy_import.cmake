@@ -2,6 +2,8 @@ set(LIBDAISY_DIR ./DaisyExamples/libDaisy)
 set(DAISYSP_LIB_DIR ./DaisyExamples/DaisySP)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_FLAGS -Os)
+set(CMAKE_C_FLAGS -Os)
 set(LINKER_SCRIPT ${LIBDAISY_DIR}/core/STM32H750IB_flash.lds)
 
 set(MODULE_DIR "${LIBDAISY_DIR}/src")

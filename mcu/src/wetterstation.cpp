@@ -1,11 +1,11 @@
 #include <array>
 #include <math.h>
 #include "daisy_seed.h"
-#define NUMBER_OF_VALUES 550
+#define NUMBER_OF_VALUES 2048
 #define SIN_POINTS 50
 #define TEST_MEMORY_SIZE (NUMBER_OF_VALUES * 16 * 3)
 
-#define DAC_MAX 1595 // 12 bit (4095) as 3V
+#define DAC_OUT 1595 // 12 bit (4095) as 3V
 
 using namespace daisy;
 
@@ -25,9 +25,6 @@ const float_t a2 = 10732;
 const float_t a1 = -3465.6;
 const int32_t zero_threshold = 2;
 
-// As we have try to achive 10 kHz Clock
-const uint32_t SIN_FREQ_US = (100 / SIN_POINTS) - 1;
-
 // static std::array<uint16_t, NUMBER_OF_VALUES> SINE_WAVE_LOOKUP;
 
 // static std::array<uint16_t, NUMBER_OF_VALUES> ADC1_VALUES;
@@ -43,28 +40,15 @@ const float_t calculate_rh(const float_t c, const float_t freq) {
 	return (a1 * pow(x, 3) + (a2 * pow(x, 2)) + (a3 * x) + c);
 }
 
-uint32_t get_ticks_per_us() {
-	uint32_t tick1 = System::GetTick();
-	System::DelayUs(1);
-	uint32_t tick2 = System::GetTick();
-	return tick2 - tick1;
-}
-
-/* 
-void store_value(uint16_t u1, uint16_t u2, uint16_t u3)
-{
+void store_value(uint16_t u1, uint16_t u2, uint16_t u3){
 	int32_t *ram = (int32_t *)0xC0000000;
-	unsigned char const *p1 = reinterpret_cast<unsigned char const *>(&u1);
-	memcpy((sizeof(uint16_t) * value_count) + ram, p1, sizeof(uint16_t));
+	memcpy((sizeof(uint16_t) * value_count) + ram, &u1, sizeof(uint16_t));
 	value_count++;
-	unsigned char const *p2 = reinterpret_cast<unsigned char const *>(&u2);
-	memcpy((sizeof(uint16_t) * value_count) + ram, p2, sizeof(uint16_t));
+	memcpy((sizeof(uint16_t) * value_count) + ram, &u2, sizeof(uint16_t));
 	value_count++;
-	unsigned char const *p3 = reinterpret_cast<unsigned char const *>(&u3);
-	memcpy((sizeof(uint16_t) * value_count) + ram, p3, sizeof(uint16_t));
+	memcpy((sizeof(uint16_t) * value_count) + ram, &u3, sizeof(uint16_t));
 	value_count++;
 }
-*/
 
 int main(void)
 {
@@ -86,30 +70,40 @@ int main(void)
 	hw.adc.Init(adc_config, 3);
 	hw.adc.Start();
 
-	Switch start_button;
-	start_button.Init(seed::D26);
-
 	hw.SetLed(false);
 
 	// Don't wait for Serial connection
 	hw.StartLog(false);
 
-	uint32_t ticks_per_us = get_ticks_per_us();
+	// Calculate delay time to get output Frequency
+	uint32_t tick1 = System::GetTick();
+	System::DelayUs(1);
+	uint32_t tick2 = System::GetTick();
+	uint32_t delay_time = (tick2 - tick1) * (500000 / 6650);
+	auto c = calculate_c(delay_time);
+	calculate_rh(c, delay_time);
 
-	auto c = calculate_c(ticks_per_us);
-	auto rh = calculate_rh(c, ticks_per_us);
-	hw.PrintLine("%f", rh);
+	bool out_high = true;
+
+	hw.SetLed(true);
+
+	uint32_t current_ticks = 0;
 
 	while(1)
 	{
-		// ensure we stay in bounds
-		if(value_count >= (SIZE_MAX - SIN_POINTS)) {
-			value_count = 0;
+		uint32_t delta_ticks = System::GetTick() - current_ticks;
+		// Handle Output
+		if(out_high) {
+			hw.dac.WriteValue(DacHandle::Channel::ONE, DAC_OUT);
+			
+		} else {
+			hw.dac.WriteValue(DacHandle::Channel::ONE, 0);
 		}
-		hw.SetLed(true);
-		System::DelayTicks(ticks_per_us);
-		hw.SetLed(false);
-		System::Delay(2000);
+
+		if(delta_ticks > delay_time) {
+			out_high = !out_high;
+			current_ticks = System::GetTick();
+		}
 
 		/* if (do_measurement)
 		{
