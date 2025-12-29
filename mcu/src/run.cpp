@@ -1,5 +1,4 @@
 #include "daisy_seed.h"
-#include "daisysp.h"
 #include <string>
 #include <array>
 #include <math.h>
@@ -11,7 +10,6 @@
 #define DAC_MAX 4095  // 12 bit
 
 using namespace daisy;
-using namespace daisysp; 
 
 DaisySeed hw;
 static size_t value_count = 0;
@@ -26,7 +24,7 @@ void calculate_sine_wave_lookup(){
 	for (size_t i = 0; i < (SIN_POINTS - 1); i++)
 	{
 		// We only want the positive half wave
-		float_t v = (DAC_MAX * sin((PI_F * i) / SIN_POINTS));
+		float_t v = (DAC_MAX * sin((2.12 * i) / SIN_POINTS));
 		SINE_WAVE_LOOKUP[i] = static_cast<uint16_t>(v);
 		// hw.PrintLine("%3d;%7d:%7.5f", i, SINE_WAVE_LOOKUP[i], v);
 	}

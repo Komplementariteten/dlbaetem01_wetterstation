@@ -1,0 +1,4 @@
+[submodule "mcu/DaisyExamples"]
+	path = mcu/DaisyExamples
+	url = git@github.com:electro-smith/DaisyExamples.git
+	ignore = all
