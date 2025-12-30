@@ -1,0 +1,3 @@
+cargo:rustc-link-search=/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/target/thumbv7em-none-eabihf/debug/build/stm32h7-621cc0d813baba4f/out
+cargo:rerun-if-changed=src/stm32h743v/device.x
+cargo:rerun-if-changed=build.rs

@@ -1,0 +1,2 @@
+cargo:rustc-link-search=/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/target/thumbv7em-none-eabihf/debug/build/wetter-rs-fdda216bb8340b7d/out
+cargo:rerun-if-changed=memory.x

@@ -1,0 +1,1 @@
+/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/target/thumbv7em-none-eabihf/debug/wetter-rs: /home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/build.rs /home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/memory.x /home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/src/main.rs

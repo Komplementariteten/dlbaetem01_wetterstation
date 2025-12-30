@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../mcu/DaisyExamples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../mcu/DaisyExamples/DaisySP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../mcu/DaisyExamples/DaisySP/DaisySP-LGPL" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../mcu/DaisyExamples/libDaisy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../mcu/DaisyExamples/libDaisy/tests/googletest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../mcu/DaisyExamples/stmlib" vcs="Git" />
+  </component>
+</project>

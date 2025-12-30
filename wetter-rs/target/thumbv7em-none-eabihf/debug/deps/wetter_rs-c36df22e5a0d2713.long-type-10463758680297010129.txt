@@ -1,0 +1,1 @@
+stm32h7xx_hal::gpio::Pin<'B', 15, stm32h7xx_hal::gpio::Output>: embedded_hal::digital::ErrorType

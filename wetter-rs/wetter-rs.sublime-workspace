@@ -1,0 +1,533 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"eq",
+				"equation"
+			],
+			[
+				"sq",
+				"\\sqrt{arg}"
+			],
+			[
+				"al",
+				"\\alpha"
+			],
+			[
+				"om",
+				"\\omega"
+			],
+			[
+				"textc",
+				"\\Textcite{bibid}"
+			],
+			[
+				"pl",
+				"platform"
+			],
+			[
+				"docu",
+				"document"
+			],
+			[
+				"sec",
+				"section"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/Compile to PDF.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/Compile to PDF.sublime-build",
+					"Traditional Builder"
+				],
+				[
+					"Packages/LaTeXTools/Compile to PDF.sublime-build",
+					"Traditional Builder with PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/Compile to PDF.sublime-build",
+					"Traditional Builder with XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/Compile to PDF.sublime-build",
+					"Traditional Builder with LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/Compile to PDF.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/Compile to PDF.sublime-build",
+					"Basic Builder with PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/Compile to PDF.sublime-build",
+					"Basic Builder with XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/Compile to PDF.sublime-build",
+					"Basic Builder with LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/Compile to PDF.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/Compile to PDF.sublime-build",
+				"Basic Builder with XeLaTeX"
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Automatic"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Run (with args)..."
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Check"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Test (with args)..."
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Document"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Clippy"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Script"
+				]
+			],
+			[
+				"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"de",
+				"Debugger: Quit"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"fo",
+				"Pretty JSON: Format JSON"
+			],
+			[
+				"prin",
+				"File: Print"
+			],
+			[
+				"for",
+				"Pretty JSON: Format JSON"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs",
+		"/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/src"
+	],
+	"file_history":
+	[
+		"/home/me/Workspace/Github/dlbaetem01_wetterstation/mcu/bmp-flash.scr",
+		"/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/build.rs",
+		"/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/memory.x",
+		"/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-cpp/.gdbinit",
+		"/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/wetter-rs.sublime-project",
+		"/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/debug.gdb",
+		"/home/me/.config/quadromon/config.toml",
+		"/home/me/Workspace/Github/py/pytorch/learn01/tts.py",
+		"/home/me/.local/share/quadromon/store.json",
+		"/home/me/Workspace/Github/rust/quadromon/src/config.rs",
+		"/home/me/Workspace/Github/rust/quadromon/src/sensor_reader.rs",
+		"/home/me/Workspace/Github/py/pytorch/learn01/qs1.py",
+		"/home/me/Workspace/Github/py/pytorch/requirements.txt",
+		"/home/me/Workspace/Github/py/pytorch/learn01/test.py",
+		"/home/me/Workspace/Github/py/pytorch/learn01/README.MD",
+		"/home/me/Workspace/Github/opencv-uni/Week9_VideoAnalysis/trackMultiObjects.cpp",
+		"/home/me/Workspace/Github/opencv-uni/Week1/Application_Sunglasses_Filter/Using_Arithmetic_Operations.cpp",
+		"/home/me/Workspace/Github/docker/rocm/test/Dockerfile",
+		"/home/me/Workspace/Github/opencv-uni/Week1/results/pockMaskedEyeRegion.png",
+		"/home/me/Downloads/Complementary/ComplementaryUnbound_r5.6.1/HOW TO INSTALL.txt",
+		"/home/me/Workspace/Github/opencv-uni/Project2_SunglassFilter/data/models/haarcascade_eye.xml",
+		"/home/me/Downloads/Anlage.dat",
+		"/home/me/Downloads/ascii.chr",
+		"/home/me/Workspace/Github/opencv-uni/Week10_DeepLearning/data/images/man.jpg",
+		"/home/me/Downloads/ToolJournal2022/README.txt",
+		"/home/me/Downloads/ToolJournal2022/functions/getMask.m",
+		"/home/me/Workspace/Github/opencv-uni/Project2_SkinSmoothing/data/models/opencv_face_detector_uint8.pb",
+		"/home/me/Workspace/Github/opencv-uni/Project1_Blemish_Removal/submission.cpp",
+		"/home/me/Workspace/other/icebreaker-workshop/stopwatch/solution/stopwatch.v",
+		"/home/me/Documents/Sicherung/TexTest/iu1.tex",
+		"/home/me/Workspace/Github/documents/DLBWIRITT01/01_Wissenschaftstheorie/literatur.bib",
+		"/home/me/Workspace/Github/documents/DLBWIRITT01/01_Wissenschaftstheorie/Aufgabe_01.tex",
+		"/home/me/Workspace/Github/documents/latex-vorlagen/iu_tmpl.tex",
+		"/home/me/Downloads/10.1007_s11220-018-0217-8-citation.ris",
+		"/home/me/Workspace/Github/documents/latex-vorlagen/literatur.bib",
+		"/home/me/Workspace/Github/documents/Math/FactSheets/Differentiale_und_Integrale/AbleitungElementarFunktionen_und_Stammintegrale.pdf",
+		"/home/me/Documents/Sicherung/TexTest/iu1.log",
+		"/home/me/Workspace/other/icebreaker-workshop/stopwatch/icebreaker-fpga-stopwatch-workshop.pdf",
+		"/home/me/Workspace/Github/opencv-uni/Week5/seamlessCloning.cpp",
+		"/home/me/Workspace/Github/configuration/run_ollama.sh",
+		"/home/me/Workspace/python_venv/tts/text.txt",
+		"/run/user/1000/gvfs/dav:host=dav.mailbox.org,ssl=true,prefix=%2Fservlet%2Fwebdav.infostore/Userstore/Oliver Siegemund/Documents/RPG/Warhammer/Maledictum/Kampagne/IM_MAP_The_Macharian_Sector_230323.webp",
+		"/home/me/.config/sublime-merge/Packages/User/Preferences.sublime-settings",
+		"/home/me/Workspace/Github/rpg/Malediktum/Inquisition  - Macharian Sector Briefing.txt",
+		"/home/me/Workspace/Github/rpg/Malediktum/Tagebuch eines Arztes.txt",
+		"/home/me/Workspace/gpt1.py",
+		"/home/me/Workspace/Github/opencv-uni/Week5/CMakeLists.txt",
+		"/home/me/Workspace/Github/opencv-uni/Week5/build/seamlessCloning",
+		"/run/user/1000/gvfs/dav:host=dav.mailbox.org,ssl=true,prefix=%2Fservlet%2Fwebdav.infostore/Userstore/Oliver Siegemund/Documents/PC/Neu/4070/Superposition_Benchmark_v1.1_8503_1747056402778.score",
+		"/home/me/Workspace/Github/rpg/Malediktum/Tagebuch eines Arztes",
+		"/home/me/Workspace/Github/rpg/Malediktum/Erfahrungen Sargent der Waechter.txt",
+		"/home/me/Workspace/Github/rpg/Malediktum/Erfahrungen eines Vorarbeiters des Heizer Klans",
+		"/home/me/Workspace/Github/rpg/.git/COMMIT_EDITMSG",
+		"/run/media/me/Ablage/Sicherung/Sec/rechshieber.pub",
+		"/home/me/Downloads/Structuring-Element-Assignment.cpp",
+		"/home/me/Downloads/OpenAudible_4.5.1_x86_64.sh",
+		"/home/me/Downloads/web.de_ventose.cc_1743379200_1743465599_c68741e16fbb49a484b1fd1f19388d82.xml",
+		"/home/me/xorg.cfg",
+		"/home/me/Ginkgo-me",
+		"/home/me/result.json",
+		"/home/me/Downloads/312899427171827715.json",
+		"/run/user/1000/gvfs/dav:host=dav.mailbox.org,ssl=true,prefix=%2Fservlet%2Fwebdav.infostore/Userstore/Oliver Siegemund/Documents/Privat/Sec/ssh-laptop.pub",
+		"/home/me/.ssh/authorized_keys",
+		"/tmp/sublime-sftp-browse-1742992073/root_home.json/home/me/rocket.chat/.env",
+		"/tmp/sublime-sftp-browse-1742988496/root_home.json/home/me/zitadel/zitadel-config.yaml",
+		"/tmp/sublime-sftp-browse-1742984739/root_home.json/home/me/zitadel/docker-compose.yaml",
+		"/tmp/sublime-sftp-browse-1742984646/root_home.json/home/me/zitadel/zitadel-config.yaml",
+		"/tmp/sublime-sftp-browse-1742983080/root_home.json/home/me/zitadel/docker-compose-base.yaml",
+		"/tmp/sublime-sftp-browse-1742982742/root_home.json/home/me/zitadel/zitadel-config.yaml",
+		"/tmp/sublime-sftp-browse-1742978983/root_home.json/home/me/rocket.chat/compose.yml",
+		"/tmp/sublime-sftp-browse-1742978736/root_home.json/home/me/rocket.chat/.env",
+		"/tmp/sublime-sftp-browse-1742979800/root_home.json/home/me/zitadel/docker-compose.yaml",
+		"/tmp/sublime-sftp-browse-1742982311/root_home.json/home/me/zitadel/docker-compose.yaml",
+		"/tmp/sublime-sftp-browse-1742978762/root_home.json/home/me/rocket.chat/compose.yml",
+		"/tmp/sublime-sftp-browse-1742898399/root_home.json/home/me/rocket.chat/.env",
+		"/tmp/sublime-sftp-browse-1742907037/root_home.json/home/me/mongodb/docker-compose.yml",
+		"/tmp/sublime-sftp-browse-1742906455/root_home.json/home/me/rocket.chat/compose.yml",
+		"/tmp/sublime-sftp-browse-1742903643/root_home.json/home/me/mongodb/mongo-express-config.js",
+		"/home/me/.config/sublime-text/Packages/User/sftp_servers/root_home.json",
+		"/tmp/sublime-sftp-browse-1742900379/root_home.json/home/me/mongodb/docker-compose.yml",
+		"/tmp/sublime-sftp-browse-1742900320/root_home.json/home/me/mongodb/.env",
+		"/tmp/sublime-sftp-browse-1742323131/root_home.json/home/me/rocket.chat/.env",
+		"/tmp/sublime-sftp-browse-1742247711/root_home.json/home/me/rocket.chat/.env",
+		"/tmp/sublime-sftp-browse-1742164702/root_home.json/home/me/zitadel/zitadel-config.yaml",
+		"/tmp/sublime-sftp-browse-1742164240/root_home.json/home/me/zitadel/docker-compose.yaml",
+		"/tmp/sublime-sftp-browse-1742164688/root_home.json/home/me/zitadel/zitadel-config.yaml",
+		"/home/me/Workspace/Github/opencv-uni/Assignment5_Week3_CoinDetection/submission.cpp",
+		"/home/me/Workspace/other/gtk4-rs/book/listings/css/9/style.css",
+		"/home/me/Workspace/other/gtk4-rs/book/listings/todo/8/window/imp.rs",
+		"/home/me/Workspace/other/opencv/platforms/readme.txt",
+		"/home/me/Workspace/Github/opencv-uni/Assignment6_Week4_ColorConvert/main.cpp",
+		"/home/me/Workspace/Github/opencv-uni/Week5/dataPath.hpp",
+		"/home/me/Workspace/other/opencv/samples/cpp/kalman.cpp",
+		"/home/me/Workspace/other/opencv/samples/cpp/laplace.cpp",
+		"/home/me/Workspace/Github/opencv-uni/Assignment4_Week3_Morphological/CMakeLists.txt",
+		"/run/media/me/DCM_15140282621/DICOM/S00001/SER00007/I00002",
+		"/run/media/me/DCM_15140282621/custom.ini",
+		"/home/me/Workspace/Github/opencv-uni/Week1/Basic_Image_Operations/CMakeLists.txt",
+		"/home/me/Workspace/Github/opencv-uni/.gitignore",
+		"/home/me/Workspace/other/opencv/samples/cpp/qrcode.cpp",
+		"/home/me/Workspace/other/opencv/modules/objdetect/test/test_qrcode.cpp",
+		"/home/me/Workspace/other/opencv/modules/objdetect/test/test_qr_utils.hpp",
+		"/home/me/Workspace/other/opencv/modules/objdetect/test/test_qrcode_encode.cpp",
+		"/home/me/Workspace/other/opencv/modules/objdetect/include/opencv2/objdetect.hpp",
+		"/home/me/Workspace/Github/opencv-uni/Week3/dataPath.hpp",
+		"/home/me/Workspace/other/opencv/modules/imgproc/include/opencv2/imgproc.hpp",
+		"/home/me/Workspace/Github/docker/Phoronix/download.sh",
+		"/home/me/Workspace/Github/docker/Phoronix/docker/Dockerfile",
+		"/home/me/Workspace/Github/opencv-uni/Week1/Application_Sunglasses_Filter/Load_Images.cpp",
+		"/home/me/Workspace/Github/rpg/new/System.md",
+		"/home/me/Workspace/Github/documents/Math/FactSheets/Matrizen/matizen.tex",
+		"/home/me/Workspace/Github/docker/Phoronix/Dockerfile",
+		"/home/me/Workspace/Github/dlbaetem01_wetterstation/mcu/DaisyExamples/libDaisy/core/Makefile",
+		"/home/me/Workspace/Github/platformio-libs/daisy_seed/library.json",
+		"/home/me/Workspace/Github/documents/Math/FactSheets/AbleitungElementarFunktionen_und_Stammintegrale.tex",
+		"/home/me/Workspace/Github/rust/ffi/ffilib/tests/test.cs",
+		"/home/me/Workspace/Github/documents/Math/FactSheets/AbleitungElementarFunktionen_und_Stammintegrale.pdf",
+		"/home/me/Workspace/Github/documents/Math/FactSheets/AbleitungElementarFunktionen_und_Stammintegrale.html",
+		"/home/me/Workspace/Github/documents/Math/FactSheets/AbleitungElementarFunktionen_und_Stammintegrale.bcf-SAVE-ERROR",
+		"/home/me/.config/sublime-text/Packages/User/LaTeXTools.sublime-settings",
+		"/home/me/Temp/vis/3052992960.vis",
+		"/home/me/Temp/dll/20970120.dll"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 301.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 115.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SFTP":
+	{
+		"height": 132.0,
+		"history":
+		[
+		]
+	},
+	"output.exec":
+	{
+		"height": 160.0,
+		"history":
+		[
+		]
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.latextools":
+	{
+		"height": 108.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "wetter-rs.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 524.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,17 @@
+[package]
+name = "wetter-rs"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+cortex-m-rt = { version = "0.7.5", features = ["device"] }
+daisy = { version = "0.11.0", features = ["seed_1_2"] }
+cortex-m = "0.7.7"
+cortex-m-semihosting = "0.5.0"
+panic-halt = "1.0.0"
+panic-semihosting = "0.6.0"
+stm32h7xx-hal = "0.16.0"
+embedded-graphics = "0.8.1"
+fugit = "0.3.9"
+display-interface-spi = "0.4"
+ssd1306 = "0.8.0"

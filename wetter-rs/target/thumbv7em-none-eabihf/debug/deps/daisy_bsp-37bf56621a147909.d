@@ -1,0 +1,12 @@
+/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/target/thumbv7em-none-eabihf/debug/deps/daisy_bsp-37bf56621a147909.d: /home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/lib.rs /home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/audio.rs /home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/board.rs /home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/clocks.rs /home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/flash.rs /home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/led.rs /home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/midi.rs /home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/pins.rs
+
+/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/target/thumbv7em-none-eabihf/debug/deps/libdaisy_bsp-37bf56621a147909.rmeta: /home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/lib.rs /home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/audio.rs /home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/board.rs /home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/clocks.rs /home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/flash.rs /home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/led.rs /home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/midi.rs /home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/pins.rs
+
+/home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/lib.rs:
+/home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/audio.rs:
+/home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/board.rs:
+/home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/clocks.rs:
+/home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/flash.rs:
+/home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/led.rs:
+/home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/midi.rs:
+/home/me/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/daisy_bsp-0.5.1/src/pins.rs:

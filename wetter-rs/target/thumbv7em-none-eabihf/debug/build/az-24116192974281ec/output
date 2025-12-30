@@ -1,0 +1,6 @@
+$ mkdir -p "/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/target/thumbv7em-none-eabihf/debug/build/az-24116192974281ec/out/try_track_caller"
+$ cd "/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/target/thumbv7em-none-eabihf/debug/build/az-24116192974281ec/out/try_track_caller"
+$ printf '%s' "// try_tra"... > "/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/target/thumbv7em-none-eabihf/debug/build/az-24116192974281ec/out/try_track_caller/try_track_caller.rs"
+$ cd "/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/target/thumbv7em-none-eabihf/debug/build/az-24116192974281ec/out/try_track_caller" && "rustc" "try_track_caller.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=track_caller
+$ rm -r "/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/target/thumbv7em-none-eabihf/debug/build/az-24116192974281ec/out/try_track_caller"
