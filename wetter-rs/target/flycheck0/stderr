@@ -3829,3 +3829,122 @@ Stack backtrace:
   14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
   15: std::rt::lang_start::<()>::{closure#0}
   16: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/core/src/ops/function.rs:287:21
+  17: std::panicking::catch_unwind::do_call
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:590:40
+  18: std::panicking::catch_unwind
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:553:19
+  19: std::panic::catch_unwind
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panic.rs:359:14
+  20: std::rt::lang_start_internal::{{closure}}
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/rt.rs:175:24
+  21: std::panicking::catch_unwind::do_call
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:590:40
+  22: std::panicking::catch_unwind
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:553:19
+  23: std::panic::catch_unwind
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panic.rs:359:14
+  24: std::rt::lang_start_internal
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/rt.rs:171:5
+  25: main
+  26: <unknown>
+  27: __libc_start_main
+  28: <unknown>
+   0.035044704s  INFO prepare_target{force=false package_id=wetter-rs v0.1.0 (/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs) target="wetter-rs"}: cargo::core::compiler::fingerprint: fingerprint error for wetter-rs v0.1.0 (/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs)/Check { test: true }/TargetInner { name: "wetter-rs", doc: true, ..: with_path("/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/src/main.rs", Edition2018) }
+   0.035047579s  INFO prepare_target{force=false package_id=wetter-rs v0.1.0 (/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs) target="wetter-rs"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs/target/thumbv7em-none-eabihf/debug/.fingerprint/wetter-rs-3242dfe074c58c2a/test-bin-wetter-rs`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/core/src/ops/function.rs:287:21
+  15: std::panicking::catch_unwind::do_call
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:590:40
+  16: std::panicking::catch_unwind
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:553:19
+  17: std::panic::catch_unwind
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/rt.rs:175:24
+  19: std::panicking::catch_unwind::do_call
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:590:40
+  20: std::panicking::catch_unwind
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:553:19
+  21: std::panic::catch_unwind
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/rt.rs:171:5
+  23: main
+  24: <unknown>
+  25: __libc_start_main
+  26: <unknown>
+   Compiling cortex-m v0.7.7
+    Checking nb v1.1.0
+    Checking void v1.0.2
+   Compiling semver-parser v0.7.0
+   Compiling proc-macro2 v1.0.104
+    Checking byteorder v1.5.0
+   Compiling cortex-m-rt v0.7.5
+   Compiling quote v1.0.42
+    Checking vcell v0.1.3
+   Compiling unicode-ident v1.0.22
+    Checking critical-section v1.2.0
+    Checking bitfield v0.13.2
+    Checking stable_deref_trait v1.2.1
+   Compiling portable-atomic v1.13.0
+   Compiling heapless v0.8.0
+   Compiling autocfg v1.5.0
+   Compiling az v1.2.1
+   Compiling stm32h7 v0.15.1
+   Compiling paste v1.0.15
+   Compiling synopsys-usb-otg v0.4.0
+    Checking bare-metal v1.0.0
+    Checking gcd v2.3.0
+   Compiling cortex-m-semihosting v0.5.0
+    Checking display-interface v0.4.1
+   Compiling daisy v0.11.0
+    Checking embedded-storage v0.3.1
+    Checking byte-slice-cast v0.3.5
+    Checking cast v0.3.0
+    Checking micromath v2.1.0
+   Compiling wetter-rs v0.1.0 (/home/me/Workspace/Github/dlbaetem01_wetterstation/wetter-rs)
+    Checking panic-halt v1.0.0
+    Checking embedded-dma v0.2.0
+    Checking nb v0.1.3
+    Checking volatile-register v0.2.2
+    Checking fugit v0.3.9
+    Checking embedded-hal v0.2.7
+   Compiling semver v0.9.0
+    Checking hash32 v0.3.1
+    Checking stm32-fmc v0.3.2
+    Checking display-interface-i2c v0.4.0
+    Checking display-interface-spi v0.4.1
+   Compiling rustc_version v0.2.3
+   Compiling num-traits v0.2.19
+   Compiling bare-metal v0.2.5
+    Checking usb-device v0.3.2
+    Checking panic-semihosting v0.6.0
+   Compiling syn v2.0.111
+    Checking embedded-graphics-core v0.4.0
+    Checking float-cmp v0.9.0
+    Checking ssd1306 v0.8.4
+    Checking embedded-graphics v0.8.1
+   Compiling cortex-m-rt-macros v0.7.5
+    Checking stm32h7xx-hal v0.16.0
+error: could not compile `wetter-rs` (bin "wetter-rs" test) due to 1 previous error; 5 warnings emitted
+warning: build failed, waiting for other jobs to finish...
