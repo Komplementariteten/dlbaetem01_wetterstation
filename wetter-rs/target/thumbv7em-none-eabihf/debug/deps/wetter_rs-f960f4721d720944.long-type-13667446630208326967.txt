@@ -1,1 +1,0 @@
-Ssd1306<SPIInterface<stm32h7xx_hal::spi::Spi<daisy::pac::SPI1, stm32h7xx_hal::spi::Enabled>, stm32h7xx_hal::gpio::Pin<'B', 4, stm32h7xx_hal::gpio::Output>, stm32h7xx_hal::gpio::Pin<'G', 10, stm32h7xx_hal::gpio::Output>>, DisplaySize128x64, BufferedGraphicsMode<DisplaySize128x64>>
